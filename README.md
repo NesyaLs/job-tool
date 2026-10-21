@@ -105,7 +105,7 @@ secret is needed. The *publishable* key is the only value sent to the browser.
 jobtool aggregate [--source adzuna] [--max-results 5]   # collect offers
 jobtool cv data/offer.example.txt --template compact    # one CV -> output/
 jobtool letter --offre data/offer.example.txt           # one cover letter
-jobtool batch --offres data/offres_test/                # CV + letter for each offer in a folder
+jobtool batch --offres data/offres_exemples/            # CV + letter for each offer in a folder
 jobtool catalogue stats | doublons | dedoublonner       # catalogue maintenance
 jobtool <command> --help
 ```
