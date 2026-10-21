@@ -1,0 +1,114 @@
+{
+  "experiences": [
+    {
+      "source_experience_id": "stage-backend-finup-2024",
+      "bullets": [
+        {
+          "source_id": "stage-backend-finup-2024.1",
+          "text": "Développé et mis en production cinq endpoints REST d'une API de paiement en Python/FastAPI (base PostgreSQL)."
+        },
+        {
+          "source_id": "stage-backend-finup-2024.2",
+          "text": "Réduit de 40 % le temps de réponse d'un endpoint critique via des index PostgreSQL ciblés et une requête agrégée unique."
+        },
+        {
+          "source_id": "stage-backend-finup-2024.3",
+          "text": "Écrit une suite de tests d'intégration pytest portant la couverture du module de 55 % à 88 %."
+        }
+      ]
+    },
+    {
+      "source_experience_id": "stage-decouverte-mairie-2023",
+      "bullets": [
+        {
+          "source_id": "stage-decouverte-mairie-2023.1",
+          "text": "Conçu un tableau de bord web (HTML/CSS/JS) du nombre de demandes citoyennes par service, depuis un export CSV."
+        },
+        {
+          "source_id": "stage-decouverte-mairie-2023.2",
+          "text": "Automatisé en Python le nettoyage hebdomadaire d'un fichier mal formaté (doublons, dates), auparavant manuel."
+        }
+      ]
+    },
+    {
+      "source_experience_id": "job-etudiant-tutorat-2022",
+      "bullets": [
+        {
+          "source_id": "job-etudiant-tutorat-2022.1",
+          "text": "Accompagné chaque semaine un groupe de cinq étudiants de 1re année en algorithmique et en Python, sur deux années."
+        },
+        {
+          "source_id": "job-etudiant-tutorat-2022.2",
+          "text": "Conçu des exercices et corrigés progressifs, salués pour leur clarté par le responsable pédagogique."
+        }
+      ]
+    },
+    {
+      "source_experience_id": "projet-ecole-systeme-reservation-2024",
+      "bullets": [
+        {
+          "source_id": "projet-ecole-systeme-reservation-2024.1",
+          "text": "Conçu l'architecture backend (API REST FastAPI + PostgreSQL) et le schéma relationnel de l'application."
+        },
+        {
+          "source_id": "projet-ecole-systeme-reservation-2024.3",
+          "text": "Développé le frontend en React (TypeScript) avec un calendrier interactif de disponibilité des salles."
+        },
+        {
+          "source_id": "projet-ecole-systeme-reservation-2024.4",
+          "text": "Mis en place le déploiement via Docker Compose et une pipeline GitHub Actions de tests automatisés."
+        }
+      ]
+    },
+    {
+      "source_experience_id": "projet-ecole-ml-prediction-2023",
+      "bullets": [
+        {
+          "source_id": "projet-ecole-ml-prediction-2023.1",
+          "text": "Nettoyé et fusionné deux jeux de données (consommation, météo) avec pandas (valeurs manquantes, fuseaux horaires)."
+        },
+        {
+          "source_id": "projet-ecole-ml-prediction-2023.2",
+          "text": "Entraîné et comparé trois modèles de régression (scikit-learn) ; meilleur MAE inférieur de 22 % à la baseline."
+        }
+      ]
+    },
+    {
+      "source_experience_id": "projet-perso-cli-veille-2024",
+      "bullets": [
+        {
+          "source_id": "projet-perso-cli-veille-2024.1",
+          "text": "Développé en Python un outil CLI d'agrégation de flux RSS (dédoublonnage, classement par thème), installable via pip."
+        },
+        {
+          "source_id": "projet-perso-cli-veille-2024.2",
+          "text": "Intégré un appel à une API de LLM pour résumer chaque article, avec gestion des erreurs et limite de débit."
+        }
+      ]
+    }
+  ],
+  "soft_skills": [
+    "travail d'équipe",
+    "autonomie",
+    "rigueur",
+    "communication",
+    "curiosité technique"
+  ],
+  "hard_skills": [
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "SQL",
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "JavaScript",
+    "TypeScript",
+    "React"
+  ],
+  "interests": [
+    "Veille technologique open source",
+    "Course à pied",
+    "Échecs"
+  ]
+}

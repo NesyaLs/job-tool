@@ -1,0 +1,56 @@
+
+
+Emploi ouvert aux agents contractuels uniquement
+CDD de projet 12 mois (renouvelable) à pourvoir à compter du 01/10/2025
+
+Catégorie : A        Corps : Ingénieur de recherche
+
+Rémunération selon grille de la Fonction Publique
+
+ La fiche de poste est disponible sur le site de l'Université de Strasbourg. 
+
+
+Mission : 
+
+Concevoir, développer et optimiser des applications scientifiques sur architectures de calcul haute performance (HPC), en particulier sur des plateformes hybrides CPU/GPU, dans le cadre des projets Exa-MA et Hidalgo2, au sein de la plateforme Cemosis.
+
+ 
+Activité : 
+
+Activités principales :
+
+    Développement de codes scientifiques en C++ moderne sur architectures hybrides (CPU/GPU)
+    Intégration de bibliothèques telles que Kokkos et la couche Kokkos de PETSc pour la portabilité GPU
+    Exploration ou intégration de systèmes de runtimes asynchrones orientés tâches (StarPU, Specx, etc.)
+    Optimisation des performances numériques sur les infrastructures régionales (mésocentres), nationales (GENCI), internationales (EuroHPC) et exascale (Jupiter, Alice Recoque)
+    Participation aux efforts de portabilité, scalabilité, robustesse et documentation des outils logiciels
+    Collaboration active avec les équipes des projets Exa-MA et Hidalgo2, en lien avec les ingénieurs de la plateforme Cemosis
+    Application des bonnes pratiques de développement : CI/CD, tests, modularité, revue de code
+
+Activités associées :
+
+    Veille technologique sur les outils de programmation parallèle et les bibliothèques scientifiques (HPC, GPU, exascale)
+    Participation à des réunions techniques, ateliers, séminaires et conférences
+    Rédaction de rapports techniques et documentation utilisateur
+    Appui aux utilisateurs internes ou partenaires pour l'intégration ou l'utilisation des solutions développées
+
+
+Contacts pour renseignements sur le poste :
+
+Christophe Prud’homme – Professeur, Directeur de la plateforme Cemosis, mail :  prudhomme@unistra.fr  
+
+Pour postuler, adressez votre CV et lettre de motivation au plus tard le 10/09/2025 à l’adresse suivante : prudhomme@unistra.fr  
+ 
+Profil recherché
+
+Connaissances :
+
+➢      Calcul scientifique et algébrique parallèle
+
+➢      Programmation parallèle (MPI, OpenMP, CUDA, HIP)
+
+➢      Outils et bibliothèques HPC : Kokkos, PETSc, C++ moderne (C++17–C++23), outils de build (CMake), gestion de version (Git)
+
+➢      Environnement des plateformes HPC (clusters, Genci, EuroHPC)
+
+➢       Runtimes orientés tâches : StarPU, Specx ou équivalents

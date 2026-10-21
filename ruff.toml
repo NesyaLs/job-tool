@@ -1,0 +1,18 @@
+# Config OUTILS DE FORMATAGE UNIQUEMENT (rangement à comportement constant).
+# Pas de packaging, pas de pytest config : ce fichier ne change PAS l'amorçage des
+# scripts (sys.path manuel) ni le rootdir pytest (ruff.toml n'est pas un marqueur pytest).
+line-length = 88
+
+# Ne jamais toucher aux données, sorties, logs, venv.
+extend-exclude = [".venv", "output", "logs", "data", "__pycache__", "calibration"]
+
+# Règles figées explicitement : les défauts de ruff changent d'une version à l'autre.
+[lint]
+select = ["E4", "E7", "E9", "F"]
+
+# Les scripts règlent sys.path avant d'importer jobtool : E402 y est voulu.
+[lint.per-file-ignores]
+"scripts/*" = ["E402"]
+
+[lint.isort]
+known-first-party = ["jobtool"]

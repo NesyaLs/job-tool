@@ -1,0 +1,66 @@
+Ingénieur·e Calcul Haute Performance (H/F) — Stage de fin d'études (6 mois)
+Grenoble (38) · Présentiel partiel (2 jours de télétravail/semaine) · Démarrage février 2026
+
+L'entreprise
+Helix Compute est une deeptech grenobloise (45 personnes) spécialisée dans
+l'accélération de codes de simulation scientifique pour l'industrie (énergie,
+aéronautique, sciences des matériaux). Nous aidons nos clients à exploiter au mieux
+les architectures HPC modernes : clusters multi-nœuds et accélérateurs GPU. Nous
+recherchons un·e stagiaire de fin d'études pour rejoindre notre équipe « Noyaux de
+calcul » (8 ingénieurs) et travailler sur l'optimisation de briques de calcul
+critiques.
+
+Les missions du stage
+Rattaché·e à un·e ingénieur·e HPC senior, vous contribuerez à l'optimisation et au
+portage de noyaux de calcul sur plusieurs architectures :
+- Analyser et optimiser des noyaux de calcul intensif (algèbre linéaire dense, dont
+  multiplication et factorisation de matrices) en C/C++.
+- Paralléliser ces noyaux en mémoire partagée avec OpenMP et en mémoire distribuée
+  avec MPI, puis mesurer le passage à l'échelle.
+- Porter et optimiser les noyaux les plus coûteux sur GPU NVIDIA avec CUDA, et
+  comparer rigoureusement les performances entre architectures (séquentiel, CPU
+  multithread, multi-nœuds, GPU).
+- Profiler le code, identifier les goulots d'étranglement et exploiter le
+  parallélisme bas niveau (vectorisation SIMD) lorsque c'est pertinent.
+- Documenter les choix d'optimisation et présenter les résultats de benchmark à
+  l'équipe.
+Les missions évolueront selon votre autonomie et vos centres d'intérêt.
+
+Le profil recherché
+Vous êtes en fin de cursus d'une école d'ingénieur ou d'un master en informatique,
+avec une spécialisation en calcul haute performance, calcul scientifique ou systèmes.
+Une première expérience (projet conséquent, stage) en programmation parallèle est
+attendue.
+
+Compétences techniques recherchées :
+- Très bonne maîtrise du C et/ou du C++.
+- Expérience concrète de la programmation parallèle : OpenMP (mémoire partagée) et
+  MPI (mémoire distribuée).
+- Programmation GPU avec CUDA (ou, à défaut, OpenACC) ; la connaissance de
+  l'architecture NVIDIA est un plus.
+- Notions d'optimisation de performance : profilage, hiérarchie mémoire,
+  vectorisation SIMD.
+- Bases solides en algèbre linéaire numérique (produit et factorisation de matrices).
+- Pratique de Git et du travail collaboratif.
+- Une sensibilité à l'accélération de l'entraînement de modèles de deep learning
+  (parallélisme de données/modèle) sera appréciée.
+
+Savoir-être :
+- Curiosité technique et goût pour la mesure de performance et l'expérimentation.
+- Rigueur, sens du détail et capacité à documenter clairement vos résultats.
+- Aisance dans un contexte de recherche appliquée et de collaboration en équipe.
+
+Compétences : C, C++, CUDA, OPENMP, MPI, OPENACC, SIMD, GPU NVIDIA, OPTIMISATION DE
+PERFORMANCE, ALGÈBRE LINÉAIRE, CALCUL PARALLÈLE, GIT, BENCHMARK, DEEP LEARNING
+
+Ce que nous offrons
+- Un encadrement par un·e ingénieur·e HPC senior et l'accès à un cluster de calcul
+  avec GPU récents.
+- Une vraie culture d'ingénierie de la performance : profilage, revue de code,
+  reproductibilité des benchmarks.
+- Gratification de stage attractive, tickets restaurant, télétravail partiel.
+- Des locaux au cœur de l'écosystème HPC grenoblois, et une possibilité
+  d'embauche à l'issue du stage.
+
+Cette opportunité vous parle ? Envoyez-nous votre CV : nous avons hâte d'échanger
+avec vous.

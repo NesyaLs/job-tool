@@ -1,0 +1,62 @@
+Description de l'entreprise
+
+Avec près de 11 000 collaborateurs à travers le monde, nous accompagnons les entreprises dans leur transformation numérique. Nous imaginons et concrétisons leurs ambitions grâce aux possibilités infinies des plateformes digitales, pour faire évoluer leur culture et leur mode de travail, et créer de la valeur dans leurs organisations.
+
+Présent dans 18 pays d’Europe et du Moyen-Orient et fort de 25 ans d’expérience, nous mettons la technologie au service de l'Homme afin de construire un monde plus humain et plus durable.
+
+Travailler chez Devoteam, c’est :
+
+    Recruter des talents et leur permettre de travailler aux côtés de partenaires comme Google, Microsoft, AWS ou Salesforce dont nous implémentons les solutions chez nos clients
+    Évoluer dans un groupe international qui t'accompagne dans le développement de ta carrière & proposer à nos collaborateurs un parcours de formations & certifications adapté à leurs besoins.
+    Grandir dans une entreprise qui challenge ses équipes en étant agile et ambitieuse, s’adaptant pour permettre les succès individuels et collectifs.
+
+
+
+Description du poste
+
+L'équipe lyonnaise n’attend que vous pour relever de nouveaux défis autour de l’écosystème Data.
+
+Ensemble, vous accompagnerez nos clients dans la transformation de leur Système d’information et la mise en place de solutions Big Data.
+
+Pour nos clients, la transformation digitale induit une modification profonde des processus métier poussée par le développement des nouvelles technologies. Ce changement de modèle à plusieurs objectifs : accroître l'efficacité, optimiser les coûts et créer de nouveaux produits et services innovants pour les clients.
+
+Notre offre data se décompose en deux offres distinctes: une offre orientée Data Foundation en amont de la pipeline data et une offre Data for Business qui se positionne sur l’analyse de données au profit du métier.
+
+En tant que Data Engineer Databricks, nous vous proposons d’intégrer une équipe d’ingénieurs expérimentés et multi-compétences.
+
+Au sein de nos clients issus de différents secteurs d'activité (Industrie, Services, Transport, Banque, Assurances, Énergie) et en fonction de vos compétences, les missions que vous serez amené à réaliser pourront être les suivantes :
+
+    Trouver des solutions de collecte, d’analyse et de stockage des données ;
+    Concevoir des plateformes de données (entrepôts de données) ;
+    Mettre en place et s’assurer du maintien en condition opérationnelle de l’architecture et de l’infrastructure data (data warehouse);
+    Développer les flux de données (pipelines, processus ETL) et les préparer les données afin qu’elles soient traitées, prêtes à être exploitées à des fins d’analyses ;
+    Développer et maintenir des pipelines de données robustes et efficaces sur Databricks, en utilisant Apache Spark, Python, Scala ou SQL
+    Sécuriser les données et s’assurer de leur qualité ;
+    Programmer, automatiser et optimiser les algorithmes qui permettront aux data scientists de les analyser.
+
+Pour réussir ces différents challenges, nous vous proposerons des actions de formation, des parrainages, des certifications sur les outils concernés et un dispositif d’évaluation personnel régulier.
+
+
+Qualifications
+
+    Vous êtes diplômé de niveau Bac+5 en informatique, idéalement avec une spécialisation en ingénierie de données ou équivalent.
+    Vous justifiez de 4 ans d'expérience minimum sur un poste de Data Engineer avec Databricks idéalement dans un environnement Cloud (AWS, Azure, ou GCP).
+    Vous maîtrisez le développement backend, notamment dans les langages tels que Python ou Scala.
+    Vous avez une maîtrise des théories, outils de modélisation de données et processus ETL/ELT.
+    Vous maîtrisez des outils et framework d’industrialisation, IaC, CI/CD et/ou gestion de version,
+    Vous avez un bon niveau d’anglais qui vous permet d’intervenir sur des projets à dimension internationale.
+
+
+Informations supplémentaires
+
+Comment se déroule le processus de recrutement chez Devoteam ? Il comporte 2 à 3 entretiens :
+
+    Talent Acquisition Interview : l'objectif est de faire le point sur vos compétences, votre niveau d'anglais et de valider vos éléments de motivation,
+    Tech & Business Interview : cet entretien vise à approfondir vos compétences techniques et à vérifier leur adéquation avec nos besoins lors d'un échange avec un expert métier,
+    Leadership Interview : il permet d'évaluer votre potentiel, vos ambitions et d'envisager votre évolution au sein de Devoteam.
+
+Nous privilégions au moins un entretien en présentiel. Une prise de référence est demandée et, selon votre profil, des tests (techniques, anglais, personnalité...) peuvent vous être adressés.
+
+Si votre candidature est retenue, nous vous faisons parvenir une proposition présentant les conditions d'embauche. En cas d'acceptation, le contrat de travail est formalisé.
+
+Le Groupe Devoteam oeuvre pour l'égalité des chances, pour la promotion de ses collaboratrices et de ses collaborateurs au mérite et lutte activement contre toute forme de discrimination. Nous sommes convaincus que la diversité contribue à la créativité, au dynamisme et à l'excellence de notre organisation. Chaque candidature est donc considérée indépendamment de tout critère discriminatoire.

@@ -1,0 +1,22 @@
+{
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 1,
+  "results": [
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "4099999999",
+      "title": "ingénieur calcul haute performance",
+      "company": { "display_name": "HELIX COMPUTE" },
+      "location": { "display_name": "grenoble", "area": ["France", "Auvergne-Rhône-Alpes", "Grenoble"] },
+      "description": "Snippet Adzuna de l'offre HPC (même poste, autre source).",
+      "redirect_url": "https://www.adzuna.fr/details/4099999999",
+      "created": "2026-06-12T09:00:00Z",
+      "contract_type": "contract",
+      "contract_time": "full_time",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "salary_is_predicted": "0",
+      "category": { "label": "IT Jobs", "tag": "it-jobs" }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+Contexte & missions : 
+
+
+Au cœur de la stratégie de modernisation de LCL, l'équipe IA est aujourd'hui reconnue au sein de la Direction des Systèmes d'Information. Après plusieurs années de succès dans le développement de cas d'usage à forte valeur ajoutée pour les métiers, nous entrons dans une phase d'accélération.
+
+
+Vous intégrerez une équipe qui développe et déploie des solutions à la fois innovantes et à la pointe de la recherche scientifique. L’équipe possède des compétences en traitement d’image et en traitement du langage, qui ont permis de lancer des projets autour de ces deux domaines avec, pour premiers résultats, le renforcement de l’adhésion des acteurs opérationnels LCL sur la valeur des cas d’usages de l’IA.
+
+
+Vous contribuerez aux projets de Data Science en cours et à venir, en vous appuyant sur votre expérience en développement de projets complexes de Machine et Deep Learning pour passer de la conception à l’industrialisation des solutions IA. Ainsi, vous serez amené à :
+
+- Participer à la conception et au développement de différentes briques d’Intelligence Artificielle répondant aux ambitions du Groupe Crédit Agricole ;
+
+- Créer des outils d'intelligence artificielle grâce à de puissants moyens informatiques chez l’équipe (GCP Vertex AI), en fonction de vos besoins, accompagné des équipes expertes IT, et sans être contraint par l'utilisation de solutions de marché ;
+
+- Contribuer activement à faire évoluer l'environnement de travail Data Science existant au sein de LCL.
+
+- Réaliser le « Packaging / Dockerisation » des modèles de sorte à créer des livrables informatiques pré-industrialisés ;
+
+- Préconiser et favoriser l’enrichissement et le maintien des environnements de travail Data Science existants au sein de LCL en étroite collaboration avec la Direction Informatique.
+
+
+En tant qu’expert IA, en développement et en optimisation des codes complexes, vous participerez à l’évolution de la feuille de route de l’équipe, notamment pour qualifier les prérequis technologiques et les méthodologies adaptées. Vous prendrez en charge le design et le développement de solutions adéquates pour mener à bien les chantiers d’IA (prototypes, pilotage des algorithmes d’apprentissage, industrialisation).
+
+En tant qu’interlocuteur privilégié des équipes IT, vous aurez un rôle majeur dans leur accompagnement, notamment en qualifiant les besoins informatiques, en matière d’IA, nécessaires à l’industrialisation des solutions développées.
+
+Pour maintenir votre qualité de référent expert en développement IA au sein de LCL et du Groupe Crédit Agricole, vous mettrez en œuvre les moyens de veille technologique et scientifique adaptés. Ainsi, vous participerez à une communauté d’experts au sein du Groupe (référents Crédit Agricole SA sur le domaine de l’Innovation, DataLab Groupe, …) et accompagnerez l’acculturation de l’ensemble des métiers de LCL aux domaines de l’IA, au sein de notre équipe.
+
+
+Compétences requises :
+
+• Data Science / IA : NLP/NLU, LLM/VLM, IAG, Computer Vision.
+
+• Maîtrise de Python et des librairies Machine et Deep Learning (Pytorch, TensorFlow, Fastai, ...)
+
+• Forte culture « open source » et proposition des solutions innovantes.
+
+• Connaissance des architectures Cloud sur un ou plusieurs hyperscalers (GCP Vertex AI, AWS)
+
+• Ingénierie des données et gestions des containers virtuels Docker.
+
+• Capacité à concevoir et développer des API RESTful.
+
+ 
+
+Compétences appréciées :
+
+· Compétences avec des frameworks de développement et déploiement d’agents LLM (Langgraph, …)
+
+· La connaissance des outils MLops sera également valorisée.
+
+ 
+
+Qualités recherchées :
+
+ 
+
+• Démarche de développement Agile et curiosité sur l'état de l'art des algorithmes en Computer Vision et NLP.
+
+• Capacité d’écoute et de vulgarisation des approches technologiques.
+
+• La connaissance approfondie des métiers de la banque-assurance sera, de plus, valorisée.
+
+
+
+LES + DE NOTRE ENTREPRISE : 
+
+- Package global de rémunération attractif : une Rémunération Fixe complétée par une Rémunération Variable de la Performance ainsi qu’un accès au Plan d’épargne Groupe, des primes d’intéressement et participation aux bénéfices de l’entreprise et un abondement 
+
+- Congés supplémentaires relatifs à la convention collective bancaire
+
+- Prix préférentiels bancaires et avantages CSE
+
+- Jusqu'à 84 jours de télétravail par an (environ 2 jours par semaine)
+
+- Partenariat crèches et tickets CESU
+
+- Couverture santé et prévoyance, centre médial 
+
+- De nombreux services sur le campus (restaurants d'entreprise, salle de sport, crèche, centre médical, médiathèque...) 
+
+- Forfait et avantages pratiques « mobilité durable » pour les velotafeurs
+
+ 
+
+Mais aussi : 
+
+- Un accompagnement et des formations tout au long de votre carrière au sein de LCL, mais également au sein du Groupe Crédit Agricole
+
+- Un collectif soudé et engagé dans l’atteinte d’objectifs communs
+
+- Une entreprise qui s’engage en faveur de la diversité et à ce titre, nous encourageons tout(e) candidat(e) ayant l’expérience requise à postuler à nos offres

@@ -1,0 +1,211 @@
+# Base d'expériences FICTIVE pour la mesure des templates de CV (miniatures, calibration).
+#
+# Persona : Camille Laurent, élève ingénieure en dernière année, profil logiciel & données.
+# Volontairement COMPLÈTE (accroche, compétences, langues, formation, 3 expériences, 4
+# projets) et TROP FOURNIE : chaque entrée porte plus de puces qu'une page n'en tient, pour
+# que ce soit la page mesurée — et non le manque de matière — qui borne le remplissage.
+#
+# Puces de deux templates, en alternance dans chaque entrée (ordre « mixte ») :
+#   - LONGUES : 112 à 120 caractères (au plus 120, plafond max_bullet_chars réel) ;
+#   - COURTES : 55 à 65 caractères.
+# tests/test_template_previews.py vérifie ces bornes : une puce retouchée hors template
+# fausserait silencieusement toute mesure faite sur cette base.
+#
+# Coordonnées : 4 au plus (e-mail, téléphone, 2 liens). L'en-tête du template de lettre
+# « moderne » n'en affiche proprement que 4 ; sa miniature ne doit pas montrer un
+# chevauchement que l'écran signalerait comme un défaut.
+
+profile:
+  name: Camille Laurent
+  email: camille.laurent@example.com
+  phone: "+33 6 45 78 12 90"
+  location: Nantes, France
+  links:
+    - https://github.com/camille-laurent-dev
+    - https://www.linkedin.com/in/camille-laurent-fictif
+  accroche: "Élève ingénieure en informatique, orientée backend et données, à la recherche d'un stage de fin d'études."
+
+education:
+  - degree: Diplôme d'ingénieur, spécialité Informatique et Science des données
+    school: IMT Atlantique, Nantes
+    start: "2023-09"
+    end: "2026-09"
+  - degree: Classes préparatoires aux grandes écoles, filière MP
+    school: Lycée Clemenceau, Nantes
+    start: "2021-09"
+    end: "2023-06"
+
+languages:
+  - name: Français
+    level: Langue maternelle
+  - name: Anglais
+    level: C1 — IELTS 7.5
+  - name: Allemand
+    level: B1
+
+hard_skills:
+  - Python
+  - Java
+  - SQL
+  - TypeScript
+  - FastAPI
+  - Spring Boot
+  - React
+  - PostgreSQL
+  - Docker
+  - Kubernetes
+  - Git
+  - pandas
+
+soft_skills:
+  - travail d'équipe
+  - autonomie
+  - rigueur
+  - communication
+  - curiosité
+  - sens de l'organisation
+
+interests:
+  - Escalade en salle
+  - Contribution open source
+  - Aquarelle
+  - Bénévolat associatif
+
+experiences:
+  - id: stage-backend-atlantis-2025
+    type: internship
+    title: Développeuse backend (stage de 4ᵉ année)
+    organization: Atlantis Logistics, Nantes
+    start: "2025-05"
+    end: "2025-09"
+    pinned: true
+    achievements:
+      - id: stage-backend-atlantis-2025.1
+        text: Conçu et livré une API REST en Java Spring Boot exposant le suivi des colis à trois applications internes du groupe.
+      - id: stage-backend-atlantis-2025.2
+        text: Écrit les tests d'intégration de l'API de suivi des colis.
+      - id: stage-backend-atlantis-2025.3
+        text: Réduit de 35 % la latence des recherches de colis en ajoutant des index PostgreSQL et un cache applicatif en mémoire.
+      - id: stage-backend-atlantis-2025.4
+        text: Documenté tous les endpoints avec OpenAPI et Swagger UI.
+      - id: stage-backend-atlantis-2025.5
+        text: Migré deux traitements nocturnes vers des tâches planifiées conteneurisées, supervisées par des alertes Grafana.
+      - id: stage-backend-atlantis-2025.6
+        text: Participé aux revues de code d'une équipe de huit développeurs.
+      - id: stage-backend-atlantis-2025.7
+        text: Automatisé le déploiement de l'API sur l'environnement de recette grâce à une pipeline GitLab CI dédiée et testée.
+      - id: stage-backend-atlantis-2025.8
+        text: Corrigé une fuite mémoire du service d'export des bordereaux.
+
+  - id: stage-data-ouestenergie-2024
+    type: internship
+    title: Stagiaire data engineering (stage de 3ᵉ année)
+    organization: Ouest Énergie, Rennes
+    start: "2024-06"
+    end: "2024-08"
+    pinned: true
+    achievements:
+      - id: stage-data-ouestenergie-2024.1
+        text: Construit un pipeline Python qui agrège chaque nuit les relevés de 4 000 compteurs dans un entrepôt de données SQL.
+      - id: stage-data-ouestenergie-2024.2
+        text: Nettoyé les séries temporelles de consommation avec pandas.
+      - id: stage-data-ouestenergie-2024.3
+        text: Mis en place des contrôles de qualité qui signalent automatiquement les relevés manquants ou aberrants chaque matin.
+      - id: stage-data-ouestenergie-2024.4
+        text: Créé un tableau de bord de la consommation par quartier.
+      - id: stage-data-ouestenergie-2024.5
+        text: Rédigé la documentation du pipeline et formé deux analystes à sa maintenance et à la reprise des traitements en erreur.
+      - id: stage-data-ouestenergie-2024.6
+        text: Divisé par deux la durée du chargement nocturne des relevés.
+      - id: stage-data-ouestenergie-2024.7
+        text: Présenté les résultats du stage au comité technique, avec une proposition de feuille de route détaillée sur un an.
+      - id: stage-data-ouestenergie-2024.8
+        text: Versionné les requêtes SQL et leurs tests unitaires dans Git.
+
+  - id: job-monitrice-escalade-2022
+    type: job
+    title: Monitrice d'escalade (emploi étudiant)
+    organization: Vertical'Nantes, club associatif
+    start: "2022-09"
+    end: "2025-06"
+    achievements:
+      - id: job-monitrice-escalade-2022.1
+        text: Encadré chaque semaine des groupes de douze grimpeurs débutants, en garantissant le respect des règles de sécurité.
+      - id: job-monitrice-escalade-2022.2
+        text: Préparé des séances d'entraînement adaptées à chaque niveau.
+      - id: job-monitrice-escalade-2022.3
+        text: Organisé deux compétitions régionales, de la logistique des voies jusqu'à la coordination de trente bénévoles du club.
+      - id: job-monitrice-escalade-2022.4
+        text: Tenu le planning des créneaux et les inscriptions du club.
+
+  - id: projet-ecole-plateforme-covoiturage-2025
+    type: school_project
+    title: Plateforme de covoiturage étudiant (projet de 5ᵉ année)
+    organization: IMT Atlantique — équipe de six
+    start: "2025-10"
+    end: "2026-02"
+    achievements:
+      - id: projet-ecole-plateforme-covoiturage-2025.1
+        text: Conçu l'architecture en microservices (FastAPI, PostgreSQL) et le découpage des responsabilités entre les six membres.
+      - id: projet-ecole-plateforme-covoiturage-2025.2
+        text: Développé le module d'appariement des trajets et des passagers.
+      - id: projet-ecole-plateforme-covoiturage-2025.3
+        text: Déployé l'application sur le cluster Kubernetes de l'école, avec des mises à jour progressives sans interruption.
+      - id: projet-ecole-plateforme-covoiturage-2025.4
+        text: Mis en place l'authentification des utilisateurs par jeton JWT.
+      - id: projet-ecole-plateforme-covoiturage-2025.5
+        text: Animé les rituels agiles de l'équipe et tenu le tableau des tâches pendant les quatre mois du projet de fin d'année.
+      - id: projet-ecole-plateforme-covoiturage-2025.6
+        text: Écrit l'interface web de réservation en React et TypeScript.
+
+  - id: projet-ecole-prevision-trafic-2024
+    type: school_project
+    title: Prévision de l'affluence du tramway (projet data)
+    organization: IMT Atlantique — binôme
+    start: "2024-10"
+    end: "2025-01"
+    achievements:
+      - id: projet-ecole-prevision-trafic-2024.1
+        text: Fusionné les données de validation des titres et la météo horaire pour construire un jeu d'entraînement complet.
+      - id: projet-ecole-prevision-trafic-2024.2
+        text: Comparé trois modèles de régression pour prévoir l'affluence.
+      - id: projet-ecole-prevision-trafic-2024.3
+        text: Obtenu une erreur moyenne inférieure de 18 % à la référence, en validation croisée sur deux années de données réelles.
+      - id: projet-ecole-prevision-trafic-2024.4
+        text: Présenté les résultats et la démarche devant un jury de l'école.
+      - id: projet-ecole-prevision-trafic-2024.5
+        text: Publié le code et un rapport reproductible, avec un environnement Docker figé pour relancer l'ensemble des calculs.
+      - id: projet-ecole-prevision-trafic-2024.6
+        text: Tracé les courbes de prévision et d'erreur avec matplotlib.
+
+  - id: projet-perso-outil-budget-2024
+    type: personal_project
+    title: Application de suivi de budget partagé (projet personnel)
+    organization: Projet personnel
+    start: "2024-02"
+    end: "present"
+    achievements:
+      - id: projet-perso-outil-budget-2024.1
+        text: Développé une application web de dépenses partagées entre colocataires, utilisée chaque mois par dix personnes réelles.
+      - id: projet-perso-outil-budget-2024.2
+        text: Importé automatiquement les relevés bancaires au format CSV.
+      - id: projet-perso-outil-budget-2024.3
+        text: Calculé les remboursements minimaux entre membres grâce à un algorithme de simplification des dettes croisées du mois.
+      - id: projet-perso-outil-budget-2024.4
+        text: Hébergé le service sur un petit serveur personnel sous Debian.
+
+  - id: projet-perso-bibliotheque-open-source-2023
+    type: personal_project
+    title: Contribution à une bibliothèque open source de dates
+    organization: Projet open source
+    start: "2023-06"
+    end: "2024-06"
+    achievements:
+      - id: projet-perso-bibliotheque-open-source-2023.1
+        text: Corrigé la gestion des fuseaux horaires lors des changements d'heure, avec des tests couvrant chaque cas limite.
+      - id: projet-perso-bibliotheque-open-source-2023.2
+        text: Traduit en français toute la documentation destinée aux usagers.
+      - id: projet-perso-bibliotheque-open-source-2023.3
+        text: Relu et fusionné une vingtaine de contributions externes en tant que mainteneuse bénévole de la bibliothèque Python.
+      - id: projet-perso-bibliotheque-open-source-2023.4
+        text: Ajouté l'analyse des dates et durées au format ISO 8601.

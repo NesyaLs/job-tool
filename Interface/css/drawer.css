@@ -1,0 +1,120 @@
+/* Tiroir « Postuler » : panneau latéral par-dessus la liste. */
+
+.dialog.drawer {
+  width: min(1080px, 100vw);
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  margin: 0 0 0 auto;
+  border: 0;
+  border-left: 1px solid var(--line);
+  border-radius: 0;
+}
+.drawer .dialog-body { height: 100%; gap: 10px; padding: 18px 24px 0; }
+.drawer .dialog-title { font-size: 26px; line-height: 1.15; }
+.drawer-sub { color: var(--muted); margin-top: -6px; }
+
+.drawer-tabs { display: flex; gap: 22px; border-bottom: 1px solid var(--line); }
+.drawer-tab {
+  padding: 8px 2px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-weight: 600;
+}
+.drawer-tab[aria-selected="true"] { color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+
+.drawer-panels { flex: 1; min-height: 0; overflow-y: auto; }
+.drawer-panel { padding: 14px 0 20px; }
+
+.drawer-footer {
+  position: sticky;
+  bottom: 0;
+  padding: 12px 0 16px;
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+}
+.drawer-apply { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.drawer-applied { display: flex; align-items: center; gap: 8px; color: var(--score-bon); font-weight: 600; }
+.drawer-applied svg { width: 16px; height: 16px; }
+
+/* ---------- Un document ---------- */
+
+.doc-panel { display: flex; flex-direction: column; gap: 14px; }
+
+.doc-template { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: flex-end; }
+.doc-template > .field { width: 240px; }
+.doc-options { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.field-inline { flex-direction: row; align-items: center; gap: 8px; }
+.select-sm { min-height: 28px; padding: 2px 8px; width: auto; }
+
+.doc-idle { display: flex; gap: 24px; align-items: flex-start; padding: 8px 0; }
+.doc-idle-text { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; max-width: 52ch; color: var(--muted); }
+.doc-thumb { width: 180px; flex: none; border: 1px solid var(--line); }
+.doc-skeleton {
+  width: 180px;
+  aspect-ratio: 1 / 1.414;
+  flex: none;
+  border: 1px solid var(--line);
+  background: linear-gradient(90deg, var(--surface) 0%, var(--bg) 50%, var(--surface) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+.doc-ready { display: flex; flex-direction: column; gap: 12px; }
+.doc-toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+.checks { display: flex; flex-direction: column; gap: 6px; }
+.check-list { display: flex; flex-wrap: wrap; gap: 6px 20px; list-style: none; margin: 0; padding: 0; }
+.check-item { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.check-item svg { width: 15px; height: 15px; }
+.check-item[data-ok="true"] { color: var(--score-bon); }
+.check-item[data-ok="false"] { color: var(--score-faible); }
+.check-item[data-ok="na"] { color: var(--muted); }
+.check-details { color: var(--muted); font-size: 12px; }
+.check-details ul { margin: 6px 0 0; padding-left: 18px; }
+
+.doc-work { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; align-items: start; }
+.doc-work.has-side { grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); }
+
+.doc-canvas { padding: 16px; background: var(--bg); border: 1px solid var(--line); }
+.pdf-viewer { display: flex; flex-direction: column; gap: 16px; align-items: center; }
+.pdf-page { position: relative; margin: 0; width: 100%; max-width: 640px; background: var(--surface); border: 1px solid var(--line); }
+.pdf-img { display: block; width: 100%; height: auto; }
+.pdf-page-num { position: absolute; right: 8px; bottom: 6px; font-size: 11px; color: var(--muted); }
+
+/* Zones retouchables : positions en pourcentages de la page, posées par le JS. */
+.pdf-zone {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--w);
+  height: var(--h);
+  padding: 0;
+  border: 1px dashed transparent;
+  border-radius: 2px;
+  background: transparent;
+}
+.pdf-page.is-interactive .pdf-zone { border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+.pdf-zone:hover, .pdf-zone:focus-visible { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.pdf-zone.is-edited { border-color: var(--score-moyen); }
+.pdf-zone.is-selected { border: 2px solid var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+/* ---------- Panneaux de retouche et mode avancé ---------- */
+
+.side-panel { position: sticky; top: 0; display: flex; flex-direction: column; gap: 10px; }
+.side-panel-row { display: flex; gap: 8px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.side-panel .field-label { display: flex; gap: 8px; align-items: center; }
+.retouche-original { padding-left: 12px; border-left: 3px solid var(--line); color: var(--muted); }
+.retouche-edited { display: flex; flex-direction: column; gap: 6px; padding-top: 10px; border-top: 1px solid var(--line); }
+.retouche-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.source-textarea { font: 12px/1.5 var(--mono); white-space: pre; overflow: auto; }
+.doc-work.has-side:has(.side-panel-wide) { grid-template-columns: minmax(0, 1fr) minmax(320px, 460px); }
+
+@media (max-width: 899px) {
+  .drawer .dialog-body { padding: 14px 16px 0; }
+  .doc-work.has-side, .doc-work.has-side:has(.side-panel-wide) { grid-template-columns: minmax(0, 1fr); }
+  .side-panel { position: static; }
+  .doc-idle { flex-direction: column; }
+  .drawer-apply { flex-direction: column; align-items: stretch; }
+}

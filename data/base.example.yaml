@@ -1,0 +1,331 @@
+# Base d'expériences — DONNÉES FICTIVES MAIS COHÉRENTES.
+# Persona : étudiant en dernière année d'école d'ingénieur en informatique (France),
+# profil développement logiciel / backend avec une coloration data & cloud.
+# Tout se répond : technos réutilisées d'un projet à l'autre, chronologie tenable,
+# skills récurrents. À remplacer par tes vraies données.
+
+# ── INFO EN DUR : identité (ne passe JAMAIS par le LLM) ────────────────────────
+profile:
+  name: Lucas Moreau
+  email: lucas.moreau@example.com
+  phone: "+33 6 12 34 56 78"
+  location: Lyon, France
+  links:
+    - https://github.com/lucas-moreau-dev
+    - https://lucas-moreau.dev
+    - https://www.linkedin.com/in/lucas-moreau-fictif
+
+# ── INFO EN DUR : formation (recopiée telle quelle au rendu) ───────────────────
+education:
+  - degree: Diplôme d'ingénieur, spécialité Informatique & Systèmes d'Information
+    school: INSA Lyon
+    start: "2022-09"
+    end: "2025-09"
+  - degree: Classes préparatoires intégrées (CPGE intégrée, cycle préparatoire)
+    school: INSA Lyon
+    start: "2020-09"
+    end: "2022-06"
+  - degree: Baccalauréat général, mention Très Bien (spécialités Maths / NSI)
+    school: Lycée du Parc, Lyon
+    start: "2017-09"
+    end: "2020-06"
+
+# ── INFO EN DUR : langues (recopiées telles quelles, jamais le LLM) ────────────
+languages:
+  - name: Français
+    level: Langue maternelle
+  - name: Anglais
+    level: B2 — TOEIC 850
+  - name: Espagnol
+    level: A2 — notions
+
+# ── LISTES MAÎTRES : le LLM en SÉLECTIONNE un sous-ensemble À L'IDENTIQUE ───────
+# (aucune invention ni reformulation ; tout élément affiché doit être ici).
+hard_skills:
+  - Python
+  - C
+  - Java
+  - SQL
+  - JavaScript
+  - TypeScript
+  - R
+  - FastAPI
+  - React
+  - PostgreSQL
+  - Docker
+  - Git
+  - GitHub Actions
+  - pandas
+  - scikit-learn
+
+soft_skills:
+  - travail d'équipe
+  - autonomie
+  - rigueur
+  - communication
+  - curiosité technique
+  - esprit d'analyse
+  - adaptabilité
+
+interests:
+  - Veille technologique open source
+  - Course à pied
+  - Échecs
+  - Photographie
+  - Randonnée
+
+# ── INFO GÉNÉRÉE (zone tracée) : expériences & projets ─────────────────────────
+# Chaque achievement est une phrase factuelle que TU écris. Le LLM s'y réfère,
+# reformule légèrement pour l'orienter vers l'offre, mais ne doit rien inventer.
+experiences:
+
+  - id: stage-backend-finup-2024
+    type: internship
+    pinned: true        # présence obligatoire dans tout CV généré
+    title: Développeur backend (stage de 2ᵉ année)
+    organization: FinUp Technologies (fintech, Lyon)
+    start: "2024-06"
+    end: "2024-08"
+    summary: >
+      Stage de 3 mois au sein de l'équipe paiements d'une fintech B2B,
+      sur une API de gestion de transactions à fort trafic.
+    achievements:
+      - id: stage-backend-finup-2024.1
+        text: >
+          Développé et mis en production cinq nouveaux endpoints REST d'une API
+          de paiement en Python (FastAPI), couvrant la création et le suivi de
+          virements, intégrés à une base PostgreSQL.
+        skills:
+          - python
+          - fastapi
+          - postgresql
+          - rest-api
+      - id: stage-backend-finup-2024.2
+        text: >
+          Réduit de 40 % le temps de réponse moyen d'un endpoint critique en
+          ajoutant des index PostgreSQL ciblés et en remplaçant une boucle de
+          requêtes par une requête agrégée unique.
+        skills:
+          - postgresql
+          - optimisation
+          - sql
+      - id: stage-backend-finup-2024.3
+        text: >
+          Écrit une suite de tests d'intégration (pytest) couvrant les cas
+          nominaux et d'erreur des endpoints de virement, portant la couverture
+          du module de 55 % à 88 %.
+        skills:
+          - pytest
+          - tests
+          - python
+      - id: stage-backend-finup-2024.4
+        text: >
+          Conteneurisé le service avec Docker et contribué à la pipeline
+          d'intégration continue GitLab CI, qui lançait automatiquement les
+          tests et le linting à chaque merge request.
+        skills:
+          - docker
+          - gitlab-ci
+          - ci-cd
+      - id: stage-backend-finup-2024.5
+        text: >
+          Participé aux revues de code quotidiennes et aux cérémonies agiles
+          (stand-up, sprint review) d'une équipe de six développeurs.
+        skills:
+          - agile
+          - code-review
+          - travail-equipe
+
+  - id: stage-decouverte-mairie-2023
+    type: internship
+    pinned: true        # présence obligatoire dans tout CV généré
+    title: Stagiaire développement (stage découverte de 1ʳᵉ année)
+    organization: Service numérique, Mairie de Villeurbanne
+    start: "2023-06"
+    end: "2023-07"
+    summary: >
+      Premier stage d'un mois dans le service informatique d'une collectivité,
+      sur un outil interne de suivi des demandes citoyennes.
+    achievements:
+      - id: stage-decouverte-mairie-2023.1
+        text: >
+          Conçu un petit tableau de bord web en HTML/CSS/JavaScript affichant le
+          nombre de demandes citoyennes ouvertes par service, à partir d'un export CSV.
+        skills:
+          - javascript
+          - html-css
+          - dataviz
+      - id: stage-decouverte-mairie-2023.2
+        text: >
+          Automatisé en Python le nettoyage hebdomadaire d'un fichier de données
+          mal formaté (doublons, dates incohérentes), tâche jusque-là faite à la main.
+        skills:
+          - python
+          - pandas
+          - automatisation
+      - id: stage-decouverte-mairie-2023.3
+        text: >
+          Rédigé une documentation d'utilisation de l'outil à destination d'agents
+          non techniques, validée par le responsable du service.
+        skills:
+          - documentation
+          - communication
+
+  - id: projet-ecole-systeme-reservation-2024
+    type: school_project
+    title: Plateforme de réservation de salles (projet long, 4ᵉ année)
+    organization: INSA Lyon — projet d'équipe (5 étudiants)
+    start: "2024-09"
+    end: "2025-01"
+    summary: >
+      Projet académique majeur : application web complète de réservation de salles
+      pour un campus, menée en équipe sur un semestre avec méthodologie agile.
+    achievements:
+      - id: projet-ecole-systeme-reservation-2024.1
+        text: >
+          Conçu l'architecture backend de l'application (API REST FastAPI +
+          PostgreSQL) et défini le schéma de base de données relationnel.
+        skills:
+          - fastapi
+          - postgresql
+          - architecture
+          - python
+      - id: projet-ecole-systeme-reservation-2024.2
+        text: >
+          Implémenté l'authentification par jeton JWT et la gestion des rôles
+          (étudiant, enseignant, administrateur) avec contrôle d'accès par endpoint.
+        skills:
+          - jwt
+          - securite
+          - fastapi
+      - id: projet-ecole-systeme-reservation-2024.3
+        text: >
+          Développé le frontend en React (TypeScript) avec un calendrier interactif
+          de disponibilité des salles consommant l'API.
+        skills:
+          - react
+          - typescript
+          - frontend
+      - id: projet-ecole-systeme-reservation-2024.4
+        text: >
+          Mis en place le déploiement de l'application avec Docker Compose
+          (API, base, frontend) et une pipeline GitHub Actions de tests automatisés.
+        skills:
+          - docker
+          - github-actions
+          - ci-cd
+      - id: projet-ecole-systeme-reservation-2024.5
+        text: >
+          Assuré le rôle de référent Git de l'équipe : mise en place du workflow
+          de branches, résolution des conflits de merge et formation des coéquipiers.
+        skills:
+          - git
+          - travail-equipe
+          - mentorat
+
+  - id: projet-ecole-ml-prediction-2023
+    type: school_project
+    title: Prédiction de consommation énergétique (projet data, 3ᵉ année)
+    organization: INSA Lyon — binôme
+    start: "2023-10"
+    end: "2024-01"
+    summary: >
+      Projet d'initiation au machine learning : prédire la consommation
+      électrique d'un bâtiment à partir de données météo et d'historique.
+    achievements:
+      - id: projet-ecole-ml-prediction-2023.1
+        text: >
+          Nettoyé et fusionné deux jeux de données (relevés de consommation et
+          données météo horaires) avec pandas, gérant valeurs manquantes et
+          fuseaux horaires.
+        skills:
+          - python
+          - pandas
+          - data-cleaning
+      - id: projet-ecole-ml-prediction-2023.2
+        text: >
+          Entraîné et comparé trois modèles de régression (régression linéaire,
+          random forest, gradient boosting) avec scikit-learn, le meilleur
+          atteignant un MAE inférieur de 22 % à la baseline naïve.
+        skills:
+          - scikit-learn
+          - machine-learning
+          - python
+      - id: projet-ecole-ml-prediction-2023.3
+        text: >
+          Présenté les résultats sous forme de visualisations matplotlib et d'un
+          rapport écrit devant un jury d'enseignants.
+        skills:
+          - matplotlib
+          - dataviz
+          - communication
+
+  - id: projet-perso-cli-veille-2024
+    type: personal_project
+    title: Outil CLI d'agrégation de veille technique (projet open source perso)
+    organization: perso
+    start: "2024-02"
+    end: present
+    summary: >
+      Outil en ligne de commande, développé sur mon temps libre et publié sur
+      GitHub, qui agrège des flux RSS techniques et les résume.
+    achievements:
+      - id: projet-perso-cli-veille-2024.1
+        text: >
+          Développé en Python un outil CLI qui récupère plusieurs flux RSS,
+          dédoublonne les articles et les classe par thème, packagé et installable
+          via pip.
+        skills:
+          - python
+          - cli
+          - packaging
+      - id: projet-perso-cli-veille-2024.2
+        text: >
+          Intégré un appel à une API de modèle de langage pour générer un résumé
+          court de chaque article, avec gestion des erreurs et limite de débit.
+        skills:
+          - api-integration
+          - llm
+          - python
+      - id: projet-perso-cli-veille-2024.3
+        text: >
+          Mis en place une pipeline GitHub Actions exécutant les tests et
+          publiant automatiquement une nouvelle version sur PyPI à chaque tag.
+        skills:
+          - github-actions
+          - ci-cd
+          - tests
+      - id: projet-perso-cli-veille-2024.4
+        text: >
+          Rédigé un README détaillé et obtenu une trentaine d'étoiles ainsi que
+          deux contributions externes acceptées via pull request.
+        skills:
+          - documentation
+          - open-source
+          - git
+
+  - id: job-etudiant-tutorat-2022
+    type: job
+    title: Tuteur en informatique et mathématiques (emploi étudiant)
+    organization: Association d'entraide étudiante, INSA Lyon
+    start: "2022-10"
+    end: "2024-06"
+    summary: >
+      Tutorat hebdomadaire rémunéré auprès d'étudiants de première année,
+      en parallèle des cours.
+    achievements:
+      - id: job-etudiant-tutorat-2022.1
+        text: >
+          Accompagné chaque semaine un groupe de cinq étudiants de première année
+          en algorithmique et en programmation Python, sur deux années consécutives.
+        skills:
+          - pedagogie
+          - python
+          - communication
+      - id: job-etudiant-tutorat-2022.2
+        text: >
+          Conçu des exercices et des corrigés progressifs, salués par le
+          responsable pédagogique pour leur clarté.
+        skills:
+          - pedagogie
+          - redaction

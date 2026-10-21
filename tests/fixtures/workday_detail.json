@@ -1,0 +1,21 @@
+{
+  "jobPostingInfo": {
+    "id": "Workday-HCM-Consultant--C-_JR_17954",
+    "title": "Workday HCM Consultant (C)",
+    "jobDescription": "<p>Join <b>Kainos</b> &amp; build Workday solutions.</p><ul><li>Configure HCM</li><li>Own delivery quality</li></ul>",
+    "location": "Melbourne",
+    "additionalLocations": ["Sydney", "Homeworker - Australia"],
+    "country": {"descriptor": "Australia", "id": "d903ab07f97401f2e7a3f2a1c0b6e111"},
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-23",
+    "timeType": "Full time",
+    "remoteType": "On-site",
+    "jobReqId": "JR_17954",
+    "jobPostingId": "Workday-HCM-Consultant--C-_JR_17954",
+    "canApply": true,
+    "externalUrl": "https://kainos.wd3.myworkdayjobs.com/en-US/kainos/job/Melbourne/Workday-HCM-Consultant--C-_JR_17954"
+  },
+  "hiringOrganization": {"name": "Kainos"},
+  "similarJobs": [],
+  "userAuthenticated": false
+}

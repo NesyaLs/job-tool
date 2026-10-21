@@ -1,0 +1,52 @@
+{
+  "offset": 0,
+  "limit": 100,
+  "totalFound": 2,
+  "content": [
+    {
+      "id": "743999900000001",
+      "name": "Senior Data Engineer",
+      "uuid": "aaaaaaaa-0000-1111-2222-333333333333",
+      "refNumber": "REF-001",
+      "company": { "identifier": "acme", "name": "Acme Corp" },
+      "releasedDate": "2026-06-10T09:00:00.000Z",
+      "location": {
+        "city": "Austin",
+        "region": "TX",
+        "country": "us",
+        "remote": true,
+        "hybrid": false,
+        "fullLocation": "Austin, TX, US"
+      },
+      "industry": { "id": "i1", "label": "Software" },
+      "department": { "id": "1146555", "label": "Engineering" },
+      "function": { "id": "f1", "label": "Data" },
+      "typeOfEmployment": { "id": "t1", "label": "Full-time" },
+      "experienceLevel": { "id": "e1", "label": "Senior" },
+      "visibility": "PUBLIC",
+      "language": { "code": "en" }
+    },
+    {
+      "id": "743999900000002",
+      "name": "Product Designer",
+      "uuid": "bbbbbbbb-0000-1111-2222-333333333333",
+      "refNumber": "REF-002",
+      "company": { "identifier": "acme", "name": "Acme Corp" },
+      "releasedDate": "2026-06-11T10:30:00.000Z",
+      "location": {
+        "city": "Paris",
+        "region": "IDF",
+        "country": "fr",
+        "remote": false,
+        "hybrid": true
+      },
+      "industry": { "id": "i1", "label": "Software" },
+      "department": { "id": "1146556", "label": "Design" },
+      "function": { "id": "f2", "label": "Design" },
+      "typeOfEmployment": { "id": "t1", "label": "Full-time" },
+      "experienceLevel": { "id": "e2", "label": "Mid" },
+      "visibility": "PUBLIC",
+      "language": { "code": "fr" }
+    }
+  ]
+}

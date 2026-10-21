@@ -1,0 +1,80 @@
+ À propos de l’offre d’emploi
+
+Qui sommes-nous ? 
+
+
+Worldline aide les entreprises de toutes formes et tailles à accélérer leur parcours de croissance - rapidement, simplement et en toute sécurité. Nous sommes les innovateurs au cœur de l'industrie de la technologie des paiements, façonnant la manière dont le monde paye et est payé. Notre technologie alimente la croissance de millions d'entreprises sur 5 continents. Et tout comme nous aidons nos clients à accélérer leur activité, nous nous engageons à aider nos collaborateurs à accélérer leur carrière. Ensemble, nous façonnons l'évolution.
+
+
+
+L’opportunité
+
+
+Worldline transforme la relation client avec l'IA générative.
+
+Les architectures multi-agents ne sont plus de la science-fiction : elles gèrent déjà des millions d'interactions client (voix, email, chat, réseaux sociaux), traitant automatiquement les cas simples et escaladant intelligemment les cas complexes vers les conseillers humains.
+
+Le problème: Notre plateforme CCaaS (Contact Center as a Service) omnicanale doit s'adapter à chaque client. Comment évaluer rapidement quelle architecture (quels agents? quels fallbacks? quel coût?) fonctionne le mieux pour son contexte spécifique?
+
+Votre mission: Vous rejoignez une équipe en croissance pour construire une plateforme d'analyse et de comparaison de workflows agentiques — l'outil qui permet de tester, mesurer et optimiser les architectures multi-agents. Vous transformez ce qui était du travail artisanal en avantage compétitif mesurable.
+
+
+
+Vos responsabilités au quotidien
+
+
+• Construire un outil compétitif : API backend (Spring/Java) + Dashboard (Angular/PrimeNG) qui analyse la performance des agents et propose des optimisations.
+
+• Orchestrer des workflows complexes : Intégrer N8N, connecter des agents existants, gérer escalades intelligentes et fallbacks. Vous apprenez comment fonctionnent vraiment les multi-agents en production.
+
+• Mesurer et optimiser : Définir les critères de comparaison, mesurer la performance des agents, proposer des améliorations via prompt tuning et context management.
+
+• Travailler en équipe produit : Travailler au sein de l’équipe agile (Code Review, Daily, Sprint), intégrer le feedback des utilisateurs internes, et supporter les déploiements clients
+
+
+
+Qui êtes-vous ? 
+
+
+Nous recherchons des personnes capables d'impulser des changements positifs, d'aller de l'avant et de montrer la voie à suivre - des personnes passionnées, ayant une attitude positive et une soif d'apprendre et de progresser. En pratique, cela signifie :
+
+
+    Formation BAC+4/5 en informatique (école d'ingé, Master) ou équivalent
+    Vous êtes motivés et passionnés par l'IA et les architecture multi-agents
+    Vous maitrisez l’un de ces language (Python, Java, Angular)
+    Vous êtes à l’aise en Anglais à l’écris et à l’oral.
+    Capacité à prendre du feedback et itérer
+    Rigueur dans la doc et la communication écrite
+
+
+
+Avantages 
+
+
+En tant que futur(e) Worldliner, vous aurez la chance d'être au cœur du secteur mondial des technologies de paiement et de façonner la manière dont le monde réalise les paiements.
+
+En plus de cela, vous allez également :
+
+
+    Faire partie d'une entreprise guidée par une forte volonté de faire le bien et reconnue comme l'une des 1 % des entreprises les plus durables dans tous les secteurs au niveau mondial.
+    Travailler avec des collègues inspirants et avoir la possibilité d'apprendre, de vous développer et d'accélérer votre carrière (accès à la plateforme de formation e-Learning …).
+
+
+Vous bénéficierez également d’un large panel d’avantages, notamment :
+
+
+    Primes annuelles
+    32 jours de congés payés
+    Horaires flexibles
+    Charte télétravail
+    Prise en charge transport en commun à hauteur de 75 %
+    Comité social et économique (billetterie, voyages, subventions culture et loisirs …)
+    Mutuelle et prévoyance
+    Accès à un large catalogue de formations professionnelles
+
+
+
+Shape the evolution
+
+
+Nous avançons vers les nouvelles frontières de la technologie des paiements et nous recherchons des penseurs audacieux pour se joindre à notre parcours. Des personnes avec de la passion, une attitude positive et un désir d'apprendre et de grandir. Ici, vous travaillerez avec des collègues ambitieux venus du monde entier, vous relèverez ensemble des défis uniques et vous aurez un véritable impact sur la société. Et avec notre culture valorisante, notre technologie solide et nos nombreuses opportunités de formation, nous vous aidons à accélérer votre carrière. Où que vous décidiez d'aller. Rejoignez notre équipe mondiale de plus de 18 000 innovateurs répartis dans plus de 40 pays et façonnez un avenir qui vous appartient.

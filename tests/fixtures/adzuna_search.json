@@ -1,0 +1,64 @@
+{
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 3,
+  "results": [
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "4012345678",
+      "title": "Data Scientist (H/F)",
+      "company": { "__CLASS__": "Adzuna::API::Response::Company", "display_name": "Globex" },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Paris, Île-de-France",
+        "area": ["France", "Île-de-France", "Paris"]
+      },
+      "description": "Conception de modèles ML et mise en production sur GCP. Snippet tronqué par Adzuna…",
+      "redirect_url": "https://www.adzuna.fr/details/4012345678",
+      "created": "2026-06-12T08:30:00Z",
+      "contract_type": "permanent",
+      "contract_time": "full_time",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "salary_is_predicted": "0",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "category": { "label": "IT Jobs", "tag": "it-jobs" }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "4012345679",
+      "title": "Ingénieur Machine Learning",
+      "company": { "display_name": "Initech" },
+      "location": {
+        "display_name": "Lyon, Auvergne-Rhône-Alpes",
+        "area": ["France", "Auvergne-Rhône-Alpes", "Lyon"]
+      },
+      "description": "Pipelines de données et MLOps. Snippet Adzuna…",
+      "redirect_url": "https://www.adzuna.fr/details/4012345679",
+      "created": "2026-06-11T10:00:00Z",
+      "contract_type": "permanent",
+      "contract_time": "full_time",
+      "salary_min": 48000,
+      "salary_max": 48000,
+      "salary_is_predicted": "1",
+      "latitude": 45.75,
+      "longitude": 4.85,
+      "category": { "label": "IT Jobs", "tag": "it-jobs" }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "4012345680",
+      "title": "Développeur Python",
+      "company": { "display_name": "Umbrella" },
+      "location": { "display_name": "Nantes, Pays de la Loire", "area": ["France", "Pays de la Loire", "Nantes"] },
+      "description": "API REST et microservices. Snippet Adzuna…",
+      "redirect_url": "https://www.adzuna.fr/details/4012345680",
+      "created": "2026-06-10T09:00:00Z",
+      "contract_type": "contract",
+      "contract_time": "full_time",
+      "latitude": 47.2184,
+      "longitude": -1.5536,
+      "category": { "label": "IT Jobs", "tag": "it-jobs" }
+    }
+  ]
+}

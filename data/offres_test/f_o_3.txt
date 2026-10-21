@@ -1,0 +1,35 @@
+ VSORA est une société française de semi-conducteurs fabless spécialisée dans la conception de processeurs d'inférence IA haute performance pour le cloud et les centres de données. Son processeur phare, le Jotunn8, a été conçu pour répondre aux défis énergétiques et de performance des charges de travail IA modernes : débit élevé, latence ultra-faible et efficacité énergétique optimale. Il fait partie des processeurs les plus puissants du marché, utilisé notamment pour le traitement des grands modèles de langage (LLM).
+
+Portée par une équipe dirigeante avec plus de 25 ans d'expérience en conception de puces, VSORA s'inscrit dans la prochaine vague du calcul IA durable et scalable.
+
+L'entreprise mise sur une culture collaborative, agile et bienveillante, où hiérarchies rigides et silos n'ont pas leur place. Rejoindre VSORA, c'est intégrer une équipe multiculturelle et talentueuse, contribuer à une mission ambitieuse et avoir un impact réel sur la construction d'une société de référence dans son secteur.
+
+www.vsora.com
+Mission
+
+Nous recherchons un(e) Ingénieur HPC hautement qualifié(e) et motivé(e) pour prendre en charge le développement de la stack logicielle IA/HPC pour la famille de puces VSORA. Il s'agit d'un rôle de leadership opérationnel : vous rejoindrez une équipe d'ingénieurs talentueux, piloterez les décisions d'architecture et contribuerez directement à l'implémentation de nouveaux algorithmes pour le système multicœur VSORA. Vous travaillerez à l'intersection de l'IA et des systèmes HPC, contribuant à façonner l'avenir des charges de travail IA haute performance sur le matériel VSORA.
+Missions principales :
+
+    Participer à la conception et au développement de la stack d'inférence IA pour la famille de puces VSORA
+    Concevoir et implémenter des techniques d'optimisation avancées pour les systèmes multicœurs
+    Collaborer avec les architectes matériel, les équipes frameworks ML et les ingénieurs runtime
+    Piloter l'analyse de performance et l'optimisation sur des modèles et benchmarks ML
+    Assurer une veille active sur les tendances du calcul IA/HPC, des frameworks ML et de l'accélération matérielle
+
+Profil
+Profil et compétences requis :
+
+    Solides compétences en programmation C/C++ et Python
+    Maîtrise approfondie du calcul distribué et des pipelines d'implémentation/optimisation HPC
+    Expérience pratique avec des bibliothèques mathématiques, d'algèbre linéaire et de traitement du signal (BLAS, LAPACK, FFTW, Eigen…) implémentées pour des systèmes distribués
+    Expérience en optimisation des performances et en optimisation système bas niveau
+    Bonne connaissance de PyTorch, TensorFlow, ONNX ou d'autres frameworks ML
+    Excellentes capacités de communication et de collaboration
+
+
+Atouts appréciés :
+
+    Doctorat en systèmes distribués, HPC ou calcul massivement parallèle
+    Expérience avec des architectures NPU, GPU ou autres accélérateurs IA
+    Expérience en apprentissage automatique ou en calcul numérique
+    Maîtrise des outils de développement logiciel (Git, CI/CD, profileurs, débogueurs)

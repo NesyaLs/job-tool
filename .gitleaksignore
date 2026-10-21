@@ -1,0 +1,9 @@
+# Faux positifs relus le 2026-10-21 (gitleaks dir .) :
+# identifiants factices des tests, et jetons « adref » publics d'Adzuna dans les échantillons.
+scripts/aggregator_francetravail_wiring.py:generic-api-key:125
+tests/test_api_keys.py:generic-api-key:28
+tests/fixtures/normalization_samples.json:jwt:247
+tests/fixtures/normalization_samples.json:jwt:255
+tests/fixtures/normalization_samples.json:jwt:285
+tests/fixtures/normalization_samples.json:jwt:336
+tests/fixtures/normalization_samples.json:jwt:346

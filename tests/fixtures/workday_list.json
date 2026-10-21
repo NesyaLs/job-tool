@@ -1,0 +1,23 @@
+{
+  "total": 2,
+  "jobPostings": [
+    {
+      "title": "Workday HCM Consultant (C)",
+      "externalPath": "/job/Melbourne/Workday-HCM-Consultant--C-_JR_17954",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted Today",
+      "timeType": "Full time",
+      "remoteType": "On-site",
+      "bulletFields": ["JR_17954"]
+    },
+    {
+      "title": "Senior Data Engineer",
+      "externalPath": "/job/Belfast/Senior-Data-Engineer_JR_17827-1",
+      "locationsText": "Belfast",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": ["JR_17827-1"]
+    }
+  ],
+  "facets": [],
+  "userAuthenticated": false
+}

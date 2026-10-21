@@ -1,0 +1,37 @@
+/* Administration et Journal LLM : compteurs, tableaux, échanges avec le modèle. */
+
+.admin-page { display: flex; flex-direction: column; gap: 6px; }
+.admin-body { display: flex; flex-direction: column; gap: 16px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+.stat { padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); }
+.stat-value { font: 600 28px var(--serif); }
+.stat-label { font-weight: 600; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { padding: 9px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.table th { font-size: 11.5px; font-weight: 600; color: var(--muted); background: var(--bg); }
+.table td.num { text-align: right; }
+.table tr:last-child td { border-bottom: 0; }
+.table tr.is-open td { background: var(--accent-tint); }
+.table .badge { margin-left: 6px; }
+
+.journal-warn { margin-bottom: 12px; }
+.journal-detail { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
+.journal-call { padding: 10px 0 10px 14px; border-left: 3px solid var(--line); }
+.journal-call summary { cursor: pointer; font-weight: 600; }
+.journal-step { font-family: var(--mono); }
+.journal-msg { margin: 6px 0; }
+.journal-pre {
+  margin: 4px 0 0;
+  padding: 10px;
+  max-height: 360px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  font: 12px/1.5 var(--mono);
+  white-space: pre-wrap;
+  word-break: break-word;
+}

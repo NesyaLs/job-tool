@@ -1,0 +1,10 @@
+# Outils de développement — miroir de [project.optional-dependencies].dev.
+# Installation recommandée : pip install -e ".[dev]"
+-r requirements.txt
+
+pytest
+pytest-cov
+ruff
+mypy
+types-PyYAML
+httpx

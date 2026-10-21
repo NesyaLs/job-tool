@@ -1,0 +1,18 @@
+{
+  "resultats": [
+    {
+      "id": "FT-HPC-1",
+      "intitule": "Ingénieur Calcul Haute Performance",
+      "entreprise": { "nom": "Helix Compute" },
+      "lieuTravail": { "libelle": "Grenoble", "commune": "38185" },
+      "typeContrat": "MIS",
+      "typeContratLibelle": "Mission",
+      "description": "Texte complet France Travail de l'offre HPC.",
+      "origineOffre": { "urlOrigine": "https://candidat.francetravail.fr/offres/FT-HPC-1" },
+      "dateCreation": "2026-06-12T08:00:00Z",
+      "romeCode": "M1805",
+      "contact": { "nom": "Service RH", "courriel": "ne-pas-stocker@example.com" }
+    }
+  ],
+  "filtresPossibles": []
+}

@@ -1,0 +1,73 @@
+ejoignez les équipes de Valeo engagées pour réinventer la mobilité !
+
+
+Valeo est un équipementier automobile, partenaire de tous les constructeurs dans le monde. Le Groupe propose des systèmes et équipements innovants au service de la voiture du futur – un véhicule intuitif et connecté, autonome, économe en énergie, accessible à tous et respectueux de l’environnement.
+
+
+Dans le cadre de notre stratégie de transformation digitale, nous recrutons un/une Architecte DevOps F/H.
+
+Le poste peut être basé à Créteil (94) ou à Paris (17ème arrondissement).
+
+Vous êtes responsable de la conception et de l’exploitation d’un cadre d’intégration et de delivery industrialisé pour les plateformes logicielles électriques/électroniques (E/E) couvrant les solutions Zuken, 3DExperience (3DX) et Cloud/SaaS.
+
+Vos missions :
+
+Industrialisation de l’Intégration & du Delivery
+
+    Définir des principes CI/CD adaptés à la livraison de logiciels éditeurs, en remplaçant les installations manuelles par des pipelines automatisés et reproductibles.
+
+    Être responsable et garant des critères de préparation à la mise en production pour les plateformes E/E.
+
+    Standardiser les mécanismes de packaging, de déploiement et de rollback pour les solutions on-premises et SaaS.
+
+    Garantir une séparation stricte des environnements (INT / PREPROD / PROD) et une gestion maîtrisée des versions.
+
+Intégration des éditeurs & gouvernance des mises en production
+
+    Valider la conformité technique des livraisons éditeurs (SaaS et on-premise).
+
+    Challenger les éditeurs lorsque la qualité des livraisons ou les conditions de mise en production ne sont pas conformes aux exigences.
+
+    Suivre les roadmaps de mise à jour des solutions COTS (Zuken, 3DX, etc.) et piloter la stratégie d’intégration et de déploiement associée.
+
+Automatisation des plateformes & outillage
+
+    Piloter l’automatisation des déploiements de plateformes à l’aide d’outils tels qu’Ansible, Terraform ou équivalents.
+
+    Mettre en œuvre et maintenir les pipelines CI/CD (GitHub, Jenkins, GitLab CI).
+
+    Améliorer la fiabilité des déploiements, les capacités de rollback et la traçabilité des livraisons.
+
+A propos de vous :
+
+    8 ans d’expérience minimum en architecture IT, ingénierie de plateformes ou rôles d’intégration.
+
+    5 ans minimum en DevOps, intégration ou ingénierie du delivery dans des environnements industriels, R&D ou PLM complexes.
+
+    Expérience des environnements hybrides on-premise et cloud (AWS, GCP, SaaS).
+
+    Systèmes : Solide expertise en administration Windows et Linux.
+
+    Haut niveau de rigueur et forte exigence sur la qualité des mises en production et la documentation.
+
+    Capacité à challenger de manière constructive les éditeurs et les parties prenantes internes.
+
+    Niveau d'anglais courant.
+
+Nos avantages :
+
+    Plan d’actionnariat, Action Logement
+
+    Présence d’un comité social & économique (CSE)
+
+    Télétravail partiel possible (2 jours par semaine)
+
+    Restaurant d’entreprise
+
+Pourquoi Valeo ?
+
+    Pour rejoindre un leader technologique et industriel, pionnier français dans l’innovation automobile
+
+    Pour une carrière dynamique avec des possibilités de mobilité nationale ou internationale, adaptée à vos aspirations
+
+    Pour contribuer au développement d’une mobilité plus propre, plus sûre et plus intelligente

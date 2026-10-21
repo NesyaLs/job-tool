@@ -1,0 +1,62 @@
+ À propos de l’offre d’emploi
+
+L'Ingénieur(e) Systèmes avec appétence IA contribue activement à l'exploitation, l'automatisation et l'évolution de l'infrastructure Linux et Windows d'Infotel, tout en participant à l'intégration et à l'usage de l'intelligence artificielle dans les processus opérationnels.
+
+
+Il/elle est un acteur technique polyvalent : solide sur les bases système Linux, Windows et réseau, curieux(se) et expérimenté(e) avec les outils IA, capable d'automatiser ce qu'il/elle fait à la main.
+
+
+Ce poste s'inscrit dans la transformation numérique et IA d'Infotel et constitue un tremplin vers des responsabilités d'ingénieur systèmes senior ou d'architecte infrastructure.
+
+    Montée en compétences progressive vers l'architecture et l'automatisation avancée
+    Exposition directe aux projets IA et infrastructure les plus structurants de la DSI
+    Possibilité d'embauche en CDI à l'issue de l'alternance selon les résultats
+
+
+Vous aurez plusieurs responsabilités : 
+
+
+1. L’administration des systèmes Linux & Windows : 
+
+    Participer à l'administration quotidienne des serveurs Linux (Ubuntu 24.04) et Windows Server sur 3 datacenters
+    Gérer les comptes, permissions, services et mises à jour sur les deux environnements (Linux et Windows)
+    Contribuer à la gestion du parc postes Windows (1 300 postes) via SCCM ConfigMgr et Microsoft Intune
+    Participer à la co-gestion Intune + SCCM — déploiement d'applications, politiques de conformité, Autopilot
+    Rédiger des scripts Bash/Python (Linux) et PowerShell (Windows) pour automatiser les tâches répétitives
+    Contribuer à la surveillance des systèmes via Azure Monitor et Microsoft Defender XDR
+    Documenter les procédures d'exploitation et mettre à jour la CMDB GLPI
+
+
+2. Automatisation — Linux via Ansible, Windows via SCCM/Intune
+
+    Prendre en main Ansible et AWX pour l'automatisation des serveurs Linux (périmètre exclusif Ansible)
+    Écrire et tester des playbooks Ansible pour les tâches récurrentes Linux — patches, comptes, conformité
+    Contribuer à la gestion des déploiements Windows Server via SCCM (packages, mises à jour, baselines)
+    Participer à la configuration des politiques Intune (App Protection Policies, Conditional Access) pour les postes
+    Contribuer aux pipelines CI/CD Azure DevOps — lint et syntax-check avant déploiement
+
+
+3. Intelligence Artificielle — Compétence requise
+
+    Utiliser les outils IA au quotidien pour automatiser la documentation, le scripting, la résolution d'incidents
+    Contribuer à la plateforme IA interne Infotel (OpenWebUI + LiteLLM + Azure AI Foundry)
+    Tester et documenter des cas d'usage IA concrets pour l'équipe Infrastructure (Linux et Windows)
+    Participer aux intégrations entre la plateforme IA et les outils DevOps (Azure DevOps, Ansible Lightspeed)
+    Contribuer à la veille technologique IA — LLM, agents, RAG, Copilot for M365
+
+
+4. Support et documentation
+
+    Participer aux activités de support N2 pour les équipes Infrastructure (Linux et Windows)
+    Rédiger des guides techniques, procédures et runbooks opérationnels
+    Suivre et traiter les tickets GLPI liés aux incidents et changements sur l'ensemble du parc
+
+
+
+
+Vous répondez aux critères suivants :
+
+    Vous avez un Bac+5 en informatique, réseaux, systèmes ou équivalent (école d'ingénieurs, master IT)
+    Vous avez des compétences en Systèmes & Réseaux : Linux (administration, services, droits), Windows Server (administration, GPO, AD), Réseaux TCP/IP (routing, DNS firexall),Scripting Bash, Python et/ou PowerShell, Git (branches, pull requests).
+    Vous avez déjà une expérience sur des sujets liés à l’IA : usage régulier d’un LLM (ChatGPT, Claude, Copilot…), rédaction de prompts efficaces, notions sur le fonctionnement des LLM, expérimentations personnelles documentées
+    Votre candidature serait un vrai plus si vous avez des compétences en : SCCM / Intune / Autopilot, Ansible ou automatisation IT, Azure / Cloud public, M365 E5 / Defender XDR, Docker / Kubernetes (notions)

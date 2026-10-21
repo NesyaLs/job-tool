@@ -1,0 +1,57 @@
+/* Variables de l'interface : couleurs, polices, mesures. SEUL fichier où une couleur
+   ou une police est écrite en dur ; tout le reste passe par ces variables.
+
+   Style « Carnet », palette « Papier vert » (docs/design/maquette_reference_carnet.html). */
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../fonts/fraunces-latin-wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-latin-wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #EAF1EC;           /* papier */
+  --surface: #F9FCFA;      /* panneaux */
+  --ink: #16261D;          /* texte */
+  --muted: #5C6E63;        /* texte secondaire */
+  --line: #CFDDD3;         /* filets */
+  --offres: #237F4E;       /* accent espace Offres */
+  --offres-tint: #D2EBDC;
+  --profil: #3E4944;       /* accent espace Profil */
+  --profil-tint: #E1E6E3;
+  --score-bon: #237F4E;
+  --score-moyen: #AF7414;
+  --score-faible: #B44536;
+  --on-accent: #FFFFFF;    /* texte posé sur un aplat d'accent */
+  --danger: #B44536;
+  --backdrop: rgba(22, 38, 29, 0.28);
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Inter', Arial, sans-serif;
+  --mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  --radius: 3px;
+  --topbar-h: 56px;
+  --topbar-pad: 20px;
+  --sidebar-w: 230px;
+  --list-w: 392px;
+  --detail-measure: 660px;  /* ~90 caractères de description par ligne */
+
+  /* Accent COURANT : les composants ne connaissent que lui. Il suit l'espace ouvert. */
+  --accent: var(--offres);
+  --accent-tint: var(--offres-tint);
+}
+
+[data-space="profil"] {
+  --accent: var(--profil);
+  --accent-tint: var(--profil-tint);
+}

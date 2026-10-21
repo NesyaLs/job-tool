@@ -1,0 +1,30 @@
+/* Page de connexion : papier, titre serif, filets fins. */
+
+.login-root { min-height: 100vh; }
+
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background: var(--bg);
+}
+
+.login-card {
+  width: min(380px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 32px 30px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.login-logo { height: 40px; width: auto; align-self: flex-start; margin-bottom: 8px; }
+.login-title { font-size: 30px; }
+.login-sub { color: var(--muted); margin-top: -6px; }
+.login-note { padding: 4px 0 4px 12px; border-left: 3px solid var(--accent); }
+.login-note[data-kind="error"] { border-left-color: var(--danger); color: var(--danger); }
+.login-submit { margin-top: 6px; }
+.login-switch { align-self: center; }

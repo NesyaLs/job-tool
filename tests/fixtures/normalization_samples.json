@@ -1,0 +1,1160 @@
+{
+ "_origine": "Réponses RÉELLES des API (collectées le 2026-09-19), descriptions et contacts retirés.",
+ "france_travail": [
+  {
+   "id": "214CRWD",
+   "intitule": "Ingénieur.e Data Scientist & IA (H/F)",
+   "typeContrat": "CDI",
+   "typeContratLibelle": "CDI",
+   "natureContrat": "Contrat travail",
+   "alternance": false,
+   "dureeTravailLibelleConverti": "Temps plein",
+   "dateCreation": "2026-09-18T22:21:44.535Z",
+   "lieuTravail": {
+    "libelle": "92 - Courbevoie",
+    "latitude": 48.898112,
+    "longitude": 2.238533,
+    "codePostal": "92400",
+    "commune": "92026"
+   },
+   "entreprise": {},
+   "origineOffre": {
+    "origine": "1",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/214CRWD"
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "213ZDYN",
+   "intitule": "Data scientist",
+   "typeContrat": "MIS",
+   "typeContratLibelle": "Intérim - 6 Mois",
+   "natureContrat": "Contrat travail",
+   "alternance": false,
+   "dureeTravailLibelleConverti": "Temps plein",
+   "dateCreation": "2026-09-17T09:04:01.821Z",
+   "lieuTravail": {
+    "libelle": "75 - Paris 14e Arrondissement",
+    "latitude": 48.832769,
+    "longitude": 2.325738,
+    "codePostal": "75014",
+    "commune": "75114"
+   },
+   "entreprise": {
+    "nom": "RANDSTAD PROFESSIONAL & APPEL MEDICAL",
+    "logo": "https://api.francetravail.fr/exp-rechercheoffre/v1/logo-entreprise/l0Rt2BWxYEI1lep85WWYIHEZ2q2uSJlm",
+    "entrepriseAdaptee": false
+   },
+   "origineOffre": {
+    "origine": "1",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/213ZDYN"
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "213QWNF",
+   "intitule": "Alternant Data Virtualisation / Denodo (H/F)",
+   "typeContrat": "CDD",
+   "typeContratLibelle": "CDD - 12 Mois",
+   "natureContrat": "Contrat apprentissage",
+   "alternance": true,
+   "dureeTravailLibelleConverti": "Temps plein",
+   "dateCreation": "2026-09-09T17:23:37.624Z",
+   "lieuTravail": {
+    "libelle": "92 - ASNIERES SUR SEINE",
+    "latitude": 48.932345,
+    "longitude": 2.280491,
+    "codePostal": "92600",
+    "commune": "92004"
+   },
+   "entreprise": {
+    "entrepriseAdaptee": false
+   },
+   "origineOffre": {
+    "origine": "1",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/213QWNF"
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "7030425",
+   "intitule": "Senior Data Scientist - PARIS - Anglais courant obligatoire  - Freelance (H/F)",
+   "typeContrat": "LIB",
+   "typeContratLibelle": "Profession libérale",
+   "natureContrat": "Emploi non salarié",
+   "alternance": false,
+   "dureeTravailLibelleConverti": null,
+   "dateCreation": "2026-09-19T10:03:55.670Z",
+   "lieuTravail": {
+    "libelle": "75 - Paris",
+    "commune": "75056"
+   },
+   "entreprise": {
+    "nom": "Collective.work"
+   },
+   "origineOffre": {
+    "origine": "2",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/7030425",
+    "partenaires": [
+     {
+      "nom": "XTRAMILE",
+      "url": "https://api-v2-multidiff.xtramile.io/collect/7dfadfc56c81629ea5878c6d765de4c2",
+      "logo": "https://www.francetravail.fr/logos/img/partenaires/xtramile80.png"
+     }
+    ]
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "6936562",
+   "intitule": "Stage de fin d'études / Alternance - Sujet de stage : Accompagner les transformations majeures des acteurs du transport via l'évolution de leur business model ainsi que les solutions innovantes liées à la Data et à l'IA H/F",
+   "typeContrat": "CDD",
+   "typeContratLibelle": "CDD - 12 Mois",
+   "natureContrat": "Cont. professionnalisation",
+   "alternance": true,
+   "dureeTravailLibelleConverti": null,
+   "dateCreation": "2026-09-16T13:47:49.064Z",
+   "lieuTravail": {
+    "libelle": "92 - Nanterre",
+    "codePostal": "92000",
+    "commune": "92050"
+   },
+   "entreprise": {},
+   "origineOffre": {
+    "origine": "2",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/6936562",
+    "partenaires": [
+     {
+      "nom": "DIRECTEMPLOI",
+      "url": "https://www.directemploi.com/candidatOffre/56366655?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi",
+      "logo": "https://www.francetravail.fr/logos/img/partenaires/directemploi80.png"
+     }
+    ]
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "6825250",
+   "intitule": "Data Analyst Confirmé (5 ans d'expérience minimum hors stage et alternance) - CDI (H/F)",
+   "typeContrat": "CDI",
+   "typeContratLibelle": "CDI",
+   "natureContrat": "Contrat travail",
+   "alternance": false,
+   "dureeTravailLibelleConverti": null,
+   "dateCreation": "2026-09-11T10:02:02.223Z",
+   "lieuTravail": {
+    "libelle": "75 - Paris",
+    "commune": "75056"
+   },
+   "entreprise": {
+    "nom": "Collective.work"
+   },
+   "origineOffre": {
+    "origine": "2",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/6825250",
+    "partenaires": [
+     {
+      "nom": "XTRAMILE",
+      "url": "https://api-v2-multidiff.xtramile.io/collect/e39c1195d7b87307ad9acf795d05efd8",
+      "logo": "https://www.francetravail.fr/logos/img/partenaires/xtramile80.png"
+     }
+    ]
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "6676569",
+   "intitule": "Stage - Data Analyst / Communication Interne & Mesure d'Impact  F/H",
+   "typeContrat": "CDI",
+   "typeContratLibelle": "CDI",
+   "natureContrat": "Contrat travail",
+   "alternance": false,
+   "dureeTravailLibelleConverti": null,
+   "dateCreation": "2026-09-06T05:31:01.610Z",
+   "lieuTravail": {
+    "libelle": "50 - Baudre",
+    "codePostal": "50000",
+    "commune": "50034"
+   },
+   "entreprise": {},
+   "origineOffre": {
+    "origine": "2",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/6676569",
+    "partenaires": [
+     {
+      "nom": "TALENTS_HANDICAP",
+      "url": "https://www.talents-handicap.com/689-edf/340068-stage-data-analyst-communication-interne-mesure-d-impact-f-h?src=FranceTravail",
+      "logo": "https://www.francetravail.fr/logos/img/partenaires/talents_handicap80.png"
+     }
+    ]
+   },
+   "description": "(description retirée de l'échantillon)"
+  },
+  {
+   "id": "213ZBCQ",
+   "intitule": "APPRENTI(E) DÉVELOPPEUR(SE) D'APPLICATIONS - BTS SIO SLAM OU TP (H/F)",
+   "typeContrat": "CDD",
+   "typeContratLibelle": "CDD - 12 Mois",
+   "natureContrat": "Contrat apprentissage",
+   "alternance": true,
+   "dureeTravailLibelleConverti": "Temps plein",
+   "dateCreation": "2026-09-16T20:53:53.134Z",
+   "lieuTravail": {
+    "libelle": "973 - Cayenne",
+    "latitude": 4.938265,
+    "longitude": -52.335066,
+    "codePostal": "97300",
+    "commune": "97302"
+   },
+   "entreprise": {
+    "entrepriseAdaptee": false
+   },
+   "origineOffre": {
+    "origine": "1",
+    "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/213ZBCQ"
+   },
+   "description": "(description retirée de l'échantillon)"
+  }
+ ],
+ "adzuna": [
+  {
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Free-Work"
+   },
+   "location": {
+    "display_name": "Puy-de-Dôme, Auvergne-Rhône-Alpes",
+    "area": [
+     "France",
+     "Auvergne-Rhône-Alpes",
+     "Puy-de-Dôme"
+    ],
+    "__CLASS__": "Adzuna::API::Response::Location"
+   },
+   "longitude": 3.337198,
+   "__CLASS__": "Adzuna::API::Response::Job",
+   "created": "2026-09-09T06:28:57Z",
+   "description": "(snippet retiré)",
+   "title": "Data Scientist IA (IT)",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "label": "Unknown",
+    "tag": "unknown"
+   },
+   "latitude": 45.72498,
+   "salary_is_predicted": "0",
+   "redirect_url": "https://www.adzuna.fr/land/ad/5876631143?se=zC_d6Da08RG3BcK9WtN9LQ&utm_medium=api&utm_source=APP_ID&v=1BAA3C0823AD146A3C47886F34B649E9F8BC0119",
+   "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiekNfZDZEYTA4UkczQmNLOVd0TjlMUSIsImkiOiI1ODc2NjMxMTQzIn0.K1HQVAE9SuqeVmEvztDO1e7_ew5ZK21rF6na3NyT_bc",
+   "id": "5876631143"
+  },
+  {
+   "redirect_url": "https://www.adzuna.fr/land/ad/5874912466?se=zC_d6Da08RG3BcK9WtN9LQ&utm_medium=api&utm_source=APP_ID&v=1858F9CCD1A86ECA7A74335C38A48C685F300AC0",
+   "salary_is_predicted": "0",
+   "latitude": 45.72035,
+   "id": "5874912466",
+   "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiekNfZDZEYTA4UkczQmNLOVd0TjlMUSIsImkiOiI1ODc0OTEyNDY2In0.JWfYkVJq5VToataSACOUpM-zIS2Fd1nZIHQkNIsgDL4",
+   "longitude": 5.08666,
+   "location": {
+    "display_name": "Lyon, Rhône",
+    "area": [
+     "France",
+     "Auvergne-Rhône-Alpes",
+     "Rhône",
+     "Lyon"
+    ],
+    "__CLASS__": "Adzuna::API::Response::Location"
+   },
+   "company": {
+    "display_name": "Sopra Steria",
+    "__CLASS__": "Adzuna::API::Response::Company"
+   },
+   "category": {
+    "tag": "unknown",
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "label": "Unknown"
+   },
+   "title": "Ingénieur(e) Data Scientist confirmé(e) - Industrie - Lyon",
+   "description": "(snippet retiré)",
+   "created": "2026-09-08T01:50:59Z",
+   "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+   "salary_is_predicted": "0",
+   "latitude": 48.863839,
+   "redirect_url": "https://www.adzuna.fr/land/ad/5880885848?se=zC_d6Da08RG3BcK9WtN9LQ&utm_medium=api&utm_source=APP_ID&v=517BB304582594D2EB6B1F9904C72064036C6252",
+   "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg4MDg4NTg0OCIsInMiOiJ6Q19kNkRhMDhSRzNCY0s5V3ROOUxRIn0.g4XztWjnS_ucr5DWbKn2koqazeyNEWNX0c6-3A6Rjx8",
+   "id": "5880885848",
+   "location": {
+    "display_name": "Paris, Ile-de-France",
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "area": [
+     "France",
+     "Ile-de-France",
+     "Paris"
+    ]
+   },
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Vertex Search"
+   },
+   "longitude": 2.344631,
+   "created": "2026-09-12T12:53:46Z",
+   "description": "(snippet retiré)",
+   "__CLASS__": "Adzuna::API::Response::Job",
+   "title": "Data Scientist",
+   "category": {
+    "tag": "unknown",
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "label": "Unknown"
+   }
+  },
+  {
+   "title": "Data Scientist",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "label": "Unknown",
+    "tag": "unknown"
+   },
+   "description": "(snippet retiré)",
+   "created": "2026-09-10T12:50:52Z",
+   "__CLASS__": "Adzuna::API::Response::Job",
+   "longitude": 55.529225,
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "area": [
+     "France",
+     "DOM-TOM",
+     "La Réunion"
+    ],
+    "display_name": "La Réunion, DOM-TOM"
+   },
+   "company": {
+    "display_name": "SoTalent",
+    "__CLASS__": "Adzuna::API::Response::Company"
+   },
+   "id": "5878324514",
+   "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiekNfZDZEYTA4UkczQmNLOVd0TjlMUSIsImkiOiI1ODc4MzI0NTE0In0.bAuL4J0EPk2DMat4Bc6uNaR-0Uy5l-jb_kOrE3RUN_0",
+   "redirect_url": "https://www.adzuna.fr/land/ad/5878324514?se=zC_d6Da08RG3BcK9WtN9LQ&utm_medium=api&utm_source=APP_ID&v=0CA4CFB7EADC6629279D88304E12ACCBC53F18D4",
+   "salary_is_predicted": "0",
+   "latitude": -21.06635
+  },
+  {
+   "redirect_url": "https://www.adzuna.fr/land/ad/5813726905?se=zC_d6Da08RG3BcK9WtN9LQ&utm_medium=api&utm_source=APP_ID&v=DE19D7B4C1588A727B9FDDA3C5325586CFB150EA",
+   "salary_is_predicted": "0",
+   "latitude": 48.89683,
+   "id": "5813726905",
+   "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiekNfZDZEYTA4UkczQmNLOVd0TjlMUSIsImkiOiI1ODEzNzI2OTA1In0.dnh23EeSq5RP-j--CnT3jDFBM1dYM81rTOB2L1SX31Q",
+   "longitude": 2.25651,
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "area": [
+     "France",
+     "Ile-de-France",
+     "Hauts-de-Seine",
+     "Nanterre",
+     "Courbevoie"
+    ],
+    "display_name": "Courbevoie, Nanterre"
+   },
+   "company": {
+    "display_name": "StarClay",
+    "__CLASS__": "Adzuna::API::Response::Company"
+   },
+   "title": "Data Scientist IA gen",
+   "category": {
+    "tag": "unknown",
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "label": "Unknown"
+   },
+   "created": "2026-07-24T12:31:26Z",
+   "description": "(snippet retiré)",
+   "__CLASS__": "Adzuna::API::Response::Job"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "id": "744000150141246",
+   "name": "Marketing Lead CSO Power Tools France (H/F/N)",
+   "uuid": "af481d23-8a38-49d4-8818-816af9486269",
+   "jobId": "16d0590d-b2ec-4a6a-b736-92631be2264f",
+   "jobAdId": "f7ca67d8-734d-4e88-817d-a1eae3053ad8",
+   "defaultJobAd": true,
+   "refNumber": "REF291113P",
+   "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+   },
+   "location": {
+    "city": "Saint-Ouen-sur-Seine",
+    "region": "IDF",
+    "country": "fr",
+    "address": "Avenue Michelet 32",
+    "postalCode": "93400",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "48.9117186",
+    "longitude": "2.3426745",
+    "fullLocation": "Saint-Ouen-sur-Seine, IDF, France"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+     "valueLabel": "Unlimited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "8124d9f7-e593-4a90-a42e-20bac88acc99",
+     "valueLabel": "France Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "52cffeab-78b7-43e2-9fef-e6d1bfd17414",
+     "valueLabel": "RBFR"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "492b3015-fa73-4ca1-8fbc-b26c1038ecf8",
+     "valueLabel": "Saint-Ouen"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "f7d1bb24-614b-4890-bceb-5a77a4d98279",
+     "valueLabel": "SL1"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "191522e8-4246-4030-b4e0-ee1360e53cb0",
+     "valueLabel": "Robert Bosch (France) SAS"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "d46bc602-375e-4c5b-8773-170f49339203",
+     "valueLabel": "Power Tools"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "c7b4da31-6f38-405a-b2e8-08a76e3c3f2c",
+     "valueLabel": "Professional"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "fr",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "35a7d2dc-d3d1-4c34-980d-0df9de8ace1f",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "a77755ba-3ca0-499d-a629-b044c49e911f",
+     "valueLabel": "FR_SL1"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "PT",
+     "valueLabel": "PT"
+    }
+   ],
+   "releasedDate": "2026-09-17T15:02:06.245Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000150141246-marketing-lead-cso-power-tools-france-h-f-n-",
+   "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000150141246-marketing-lead-cso-power-tools-france-h-f-n-?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/af481d23-8a38-49d4-8818-816af9486269?dcr_ci=BoschGroup",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "text": "<p>(retiré)</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "mechanical_engineering",
+    "label": "Mechanical Or Industrial Engineering"
+   },
+   "function": {
+    "id": "accounting_auditing",
+    "label": "Accounting/Auditing"
+   },
+   "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "language": {
+    "code": "fr",
+    "label": "French",
+    "labelNative": "français"
+   }
+  },
+  {
+   "id": "744000150108490",
+   "name": "Apprenti Développeur IA et Automatisation SAV F/H/N",
+   "uuid": "4570dfb5-c0dd-46a5-b696-e821f026feee",
+   "jobId": "f1b8664c-6509-464c-b189-e580d22fab7c",
+   "jobAdId": "8d2091e0-d6ab-48a9-bb90-9b23ca2b43c4",
+   "defaultJobAd": true,
+   "refNumber": "REF283741V",
+   "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+   },
+   "location": {
+    "city": "Drancy",
+    "region": "IDF",
+    "country": "fr",
+    "address": "Rue de Stalingrad 124",
+    "postalCode": "93700",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "48.917324",
+    "longitude": "2.4255293",
+    "fullLocation": "Drancy, IDF, France"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+     "valueLabel": "Limited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "8124d9f7-e593-4a90-a42e-20bac88acc99",
+     "valueLabel": "France Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "ab7ac733-ed00-4564-bf76-3ee0044a2ad0",
+     "valueLabel": "TTFR"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "52e45233-2bac-4fd7-a80e-6c4fae255610",
+     "valueLabel": "Drancy"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+     "valueLabel": "Others"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "1db42648-6e2a-4e65-afbc-c7d9fbae24ce",
+     "valueLabel": "e.l.m. leblanc SAS"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "65a82db8-6dd3-40f0-a812-01522dc95503",
+     "valueLabel": "Home Comfort"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+     "valueLabel": "Intern"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "fr",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "43fe03e1-b0b7-4eb8-82f6-3a552a901c09",
+     "valueLabel": "e.l.m. leblanc"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "35a7d2dc-d3d1-4c34-980d-0df9de8ace1f",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "c1f7f432-fdcb-4b77-b39f-3f995fa3b46b",
+     "valueLabel": "FR_Apprentice"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "TT",
+     "valueLabel": "HC"
+    }
+   ],
+   "releasedDate": "2026-09-17T13:13:01.390Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000150108490-apprenti-developpeur-ia-et-automatisation-sav-f-h-n",
+   "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000150108490-apprenti-developpeur-ia-et-automatisation-sav-f-h-n?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/4570dfb5-c0dd-46a5-b696-e821f026feee?dcr_ci=BoschGroup",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "text": "<p>(retiré)</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "mechanical_engineering",
+    "label": "Mechanical Or Industrial Engineering"
+   },
+   "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "language": {
+    "code": "fr",
+    "label": "French",
+    "labelNative": "français"
+   }
+  },
+  {
+   "id": "744000149873136",
+   "name": "Apprenti(e) Magasinier(ière) H/F/N",
+   "uuid": "0a13ff6e-6819-4859-98ea-e211ec43dbe6",
+   "jobId": "d3baa494-864a-4509-aede-09cb355e5bdb",
+   "jobAdId": "848e5226-fb26-4ca4-a457-3a002cdc5f11",
+   "defaultJobAd": true,
+   "refNumber": "REF296414U",
+   "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+   },
+   "location": {
+    "city": "Drancy",
+    "region": "IDF",
+    "country": "fr",
+    "address": "Rue de Stalingrad 126",
+    "postalCode": "93700",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "48.9164676",
+    "longitude": "2.4234949",
+    "fullLocation": "Drancy, IDF, France"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+     "valueLabel": "Limited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "8124d9f7-e593-4a90-a42e-20bac88acc99",
+     "valueLabel": "France Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "52cffeab-78b7-43e2-9fef-e6d1bfd17414",
+     "valueLabel": "RBFR"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "52e45233-2bac-4fd7-a80e-6c4fae255610",
+     "valueLabel": "Drancy"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+     "valueLabel": "Others"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "191522e8-4246-4030-b4e0-ee1360e53cb0",
+     "valueLabel": "Robert Bosch (France) SAS"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "d46bc602-375e-4c5b-8773-170f49339203",
+     "valueLabel": "Power Tools"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "f3b92bc1-600d-4d33-9115-5aa27785f52b",
+     "valueLabel": "PreMaster"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "fr",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "35a7d2dc-d3d1-4c34-980d-0df9de8ace1f",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "c1f7f432-fdcb-4b77-b39f-3f995fa3b46b",
+     "valueLabel": "FR_Apprentice"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "PT",
+     "valueLabel": "PT"
+    }
+   ],
+   "releasedDate": "2026-09-16T13:42:29.807Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000149873136-apprenti-e-magasinier-iere-h-f-n",
+   "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000149873136-apprenti-e-magasinier-iere-h-f-n?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/0a13ff6e-6819-4859-98ea-e211ec43dbe6?dcr_ci=BoschGroup",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "text": "<p>(retiré)</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "logistics_and_supply_chain",
+    "label": "Logistics And Supply Chain"
+   },
+   "function": {
+    "id": "supply_chain",
+    "label": "Supply Chain"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+   },
+   "language": {
+    "code": "fr",
+    "label": "French",
+    "labelNative": "français"
+   }
+  },
+  {
+   "id": "744000150424089",
+   "name": "Stage – Consultant technique ServiceNow H/F",
+   "uuid": "665723aa-54ee-4f11-bfdd-475c524f0136",
+   "jobId": "0e76f099-7353-4219-85c6-cb5b116e52b9",
+   "jobAdId": "3bf0b837-5637-489a-9c6f-db9b9c9f1e93",
+   "defaultJobAd": true,
+   "refNumber": "REF12670M",
+   "company": {
+    "name": "Devoteam",
+    "identifier": "Devoteam"
+   },
+   "location": {
+    "city": "Levallois-Perret",
+    "region": "IDF",
+    "country": "fr",
+    "address": "Rue Anatole France 73",
+    "postalCode": "92300",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "48.8916716",
+    "longitude": "2.285331900000001",
+    "fullLocation": "Levallois-Perret, IDF, France"
+   },
+   "customField": [
+    {
+     "fieldId": "63b9e2abdd202d15823c582d",
+     "fieldLabel": "Infinite Team",
+     "valueId": "PP-SERVICENOW",
+     "valueLabel": "ServiceNow"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "fr",
+     "valueLabel": "France"
+    },
+    {
+     "fieldId": "5bc9a4abb1f60b7aea922932",
+     "fieldLabel": "Devoteam Department",
+     "valueId": "DPT_FR_NPL_11_OS_DPT",
+     "valueLabel": "FR-NPL SAGE"
+    },
+    {
+     "fieldId": "63b9e4174a16fe43f1f6e434",
+     "fieldLabel": "Operating Unit",
+     "valueId": "OE-FR-SEXC",
+     "valueLabel": "FR - N Platform"
+    },
+    {
+     "fieldId": "5be1ad0bb1f60b7aea922daf",
+     "fieldLabel": "Job Area",
+     "valueId": "954b534c-2d8b-4a78-a107-cb1e6f20a3f8",
+     "valueLabel": "Developer"
+    },
+    {
+     "fieldId": "5b8f982e6d8bc52a560cb0ce",
+     "fieldLabel": "Job Family",
+     "valueId": "5427342",
+     "valueLabel": "Development"
+    },
+    {
+     "fieldId": "5b8f982e6d8bc52a560cb0cd",
+     "fieldLabel": "Brands",
+     "valueId": "1188acc1-e2fd-4532-9222-14c0a3eb6d89",
+     "valueLabel": "Devoteam N Platform France"
+    },
+    {
+     "fieldId": "5bc9adbcb1f60b7aea92293a",
+     "fieldLabel": "Contract type",
+     "valueId": "a8412524-374d-4c50-bd03-0d4da6eca401",
+     "valueLabel": "Internship"
+    }
+   ],
+   "releasedDate": "2026-09-18T16:54:20.490Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/Devoteam/744000150424089-stage-consultant-technique-servicenow-h-f",
+   "applyUrl": "https://jobs.smartrecruiters.com/Devoteam/744000150424089-stage-consultant-technique-servicenow-h-f?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Devoteam/publication/665723aa-54ee-4f11-bfdd-475c524f0136?dcr_ci=Devoteam",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "text": "<p>(retiré)</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "function": {
+    "id": "business_development",
+    "label": "Business Development"
+   },
+   "department": {
+    "id": 5427342,
+    "label": "Development"
+   },
+   "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "language": {
+    "code": "fr",
+    "label": "French",
+    "labelNative": "français"
+   }
+  }
+ ],
+ "workday": [
+  {
+   "tenant": "bdf",
+   "wd_server": "wd103",
+   "site": "recrutement-banque-de-france",
+   "detail": {
+    "jobPostingInfo": {
+     "id": "4b750ce8e674100cd71a82797e880000",
+     "title": "Analyste Mécanisme Supervision Unique (H/F)",
+     "jobDescription": "<p>(retiré)</p>",
+     "location": "PARIS",
+     "postedOn": "Posted Yesterday",
+     "startDate": "2026-09-18",
+     "timeType": "",
+     "jobReqId": "JR101169",
+     "jobPostingId": "Analyste-Mcanisme-Supervision-Unique--H-F-_JR101169",
+     "jobPostingSiteId": "recrutement-banque-de-france",
+     "country": {
+      "descriptor": "France",
+      "id": "54c5b6971ffb4bf0b116fe7651ec789a"
+     },
+     "logoImage": {
+      "src": "/wday/cxs/bdf/recrutement-banque-de-france/sidebarimage/3a16c03fefe710015e9b5679534b0000",
+      "alt": "Logo Capital 2025"
+     },
+     "canApply": true,
+     "posted": true,
+     "includeResumeParsing": true,
+     "jobRequisitionLocation": {
+      "descriptor": "AUTORITE CONTROLE PRUDENTIEL ET DE RESOLUTION",
+      "country": {
+       "descriptor": "France",
+       "id": "54c5b6971ffb4bf0b116fe7651ec789a",
+       "alpha2Code": "FR"
+      }
+     },
+     "externalUrl": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Analyste-Mcanisme-Supervision-Unique--H-F-_JR101169",
+     "questionnaireId": "00519900c6ea10016ee11c4497180000",
+     "secondaryQuestionnaireId": "00519900c6ea10016ee1241314d20000"
+    },
+    "hiringOrganization": {
+     "name": "Banque de France",
+     "url": ""
+    }
+   },
+   "listing": {
+    "title": "Analyste Mécanisme Supervision Unique (H/F)",
+    "externalPath": "/job/PARIS/Analyste-Mcanisme-Supervision-Unique--H-F-_JR101169",
+    "locationsText": "PARIS",
+    "postedOn": "Posted Yesterday",
+    "bulletFields": [
+     "JR101169",
+     "Supervision et résolution bancaire et assurantielle",
+     "CDI"
+    ]
+   }
+  },
+  {
+   "tenant": "bdf",
+   "wd_server": "wd103",
+   "site": "recrutement-banque-de-france",
+   "detail": {
+    "jobPostingInfo": {
+     "id": "1a4ed06d3574100aaa9e47d840720000",
+     "title": "Analyste quantitatif FX H/F",
+     "jobDescription": "<p>(retiré)</p>",
+     "location": "PARIS",
+     "postedOn": "Posted Yesterday",
+     "startDate": "2026-09-18",
+     "timeType": "",
+     "jobReqId": "JR101215",
+     "jobPostingId": "Analyste-quantitatif-FX-H-F_JR101215",
+     "jobPostingSiteId": "recrutement-banque-de-france",
+     "country": {
+      "descriptor": "France",
+      "id": "54c5b6971ffb4bf0b116fe7651ec789a"
+     },
+     "logoImage": {
+      "src": "/wday/cxs/bdf/recrutement-banque-de-france/sidebarimage/3a16c03fefe710015e9b5679534b0000",
+      "alt": "Logo Capital 2025"
+     },
+     "canApply": true,
+     "posted": true,
+     "includeResumeParsing": true,
+     "jobRequisitionLocation": {
+      "descriptor": "SIEGE CENTRAL",
+      "country": {
+       "descriptor": "France",
+       "id": "54c5b6971ffb4bf0b116fe7651ec789a",
+       "alpha2Code": "FR"
+      }
+     },
+     "externalUrl": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Analyste-quantitatif-FX-H-F_JR101215",
+     "questionnaireId": "00519900c6ea10016ee0dd359dce0000"
+    },
+    "hiringOrganization": {
+     "name": "Banque de France",
+     "url": ""
+    }
+   },
+   "listing": {
+    "title": "Analyste quantitatif FX H/F",
+    "externalPath": "/job/PARIS/Analyste-quantitatif-FX-H-F_JR101215",
+    "locationsText": "PARIS",
+    "postedOn": "Posted Yesterday",
+    "bulletFields": [
+     "JR101215",
+     "Économie, statistique et donnée",
+     "Stage"
+    ]
+   }
+  },
+  {
+   "tenant": "thales",
+   "wd_server": "wd3",
+   "site": "Careers",
+   "detail": {
+    "jobPostingInfo": {
+     "id": "6fc6629f36ad1000f7ca73b468130001",
+     "title": "Architecte Radar H/F",
+     "jobDescription": "<p>(retiré)</p>",
+     "location": "Elancourt",
+     "postedOn": "Posted Yesterday",
+     "startDate": "2026-09-18",
+     "timeType": "Full time",
+     "jobReqId": "R0316316",
+     "jobPostingId": "Product-Design-Authority---Produit-Radar-H-F_R0316316-1",
+     "jobPostingSiteId": "Careers",
+     "country": {
+      "descriptor": "France",
+      "id": "54c5b6971ffb4bf0b116fe7651ec789a"
+     },
+     "canApply": true,
+     "posted": true,
+     "includeResumeParsing": true,
+     "jobRequisitionLocation": {
+      "descriptor": "Elancourt Guynemer",
+      "country": {
+       "descriptor": "France",
+       "id": "54c5b6971ffb4bf0b116fe7651ec789a",
+       "alpha2Code": "FR"
+      }
+     },
+     "remoteType": "On-Site",
+     "externalUrl": "https://thales.wd3.myworkdayjobs.com/Careers/job/Elancourt/Product-Design-Authority---Produit-Radar-H-F_R0316316-1",
+     "questionnaireId": "5af4f5cd87600150c0d9035e1e2b453f"
+    },
+    "hiringOrganization": {
+     "name": "Thales Las France Sas",
+     "url": ""
+    }
+   },
+   "listing": {
+    "title": "Architecte Radar H/F",
+    "externalPath": "/job/Elancourt/Product-Design-Authority---Produit-Radar-H-F_R0316316-1",
+    "locationsText": "Elancourt",
+    "postedOn": "Posted Yesterday",
+    "bulletFields": [
+     "Regular Employee",
+     "R0316316",
+     "18 - SYSTEM",
+     "Thales Las France Sas"
+    ]
+   }
+  },
+  {
+   "tenant": "thales",
+   "wd_server": "wd3",
+   "site": "Careers",
+   "detail": {
+    "jobPostingInfo": {
+     "id": "3fe339d196f01001fc45db4465440000",
+     "title": "E2 Manager",
+     "jobDescription": "<p>(retiré)</p>",
+     "location": "Toulouse",
+     "postedOn": "Posted Yesterday",
+     "startDate": "2026-09-18",
+     "timeType": "Full time",
+     "jobReqId": "R0339415",
+     "jobPostingId": "E2-Manager_R0339415",
+     "jobPostingSiteId": "Careers",
+     "country": {
+      "descriptor": "France",
+      "id": "54c5b6971ffb4bf0b116fe7651ec789a"
+     },
+     "canApply": true,
+     "posted": true,
+     "includeResumeParsing": true,
+     "jobRequisitionLocation": {
+      "descriptor": "Toulouse Basso Cambo",
+      "country": {
+       "descriptor": "France",
+       "id": "54c5b6971ffb4bf0b116fe7651ec789a",
+       "alpha2Code": "FR"
+      }
+     },
+     "remoteType": "Hybrid",
+     "externalUrl": "https://thales.wd3.myworkdayjobs.com/Careers/job/Toulouse/E2-Manager_R0339415"
+    },
+    "hiringOrganization": {
+     "name": "Thales Las France Sas",
+     "url": ""
+    }
+   },
+   "listing": {
+    "title": "E2 Manager",
+    "externalPath": "/job/Toulouse/E2-Manager_R0339415",
+    "locationsText": "Toulouse",
+    "postedOn": "Posted Yesterday",
+    "bulletFields": [
+     "Regular Employee",
+     "R0339415",
+     "17 - ENGINEERING AND TECHNICAL MANAGEMENT",
+     "Thales Las France Sas"
+    ]
+   }
+  }
+ ]
+}

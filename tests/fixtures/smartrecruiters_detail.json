@@ -1,0 +1,48 @@
+{
+  "id": "743999900000001",
+  "name": "Senior Data Engineer",
+  "uuid": "aaaaaaaa-0000-1111-2222-333333333333",
+  "refNumber": "REF-001",
+  "jobId": "job-1",
+  "active": true,
+  "company": { "identifier": "acme", "name": "Acme Corp" },
+  "releasedDate": "2026-06-10T09:00:00.000Z",
+  "location": {
+    "city": "Austin",
+    "region": "TX",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "fullLocation": "Austin, TX, US"
+  },
+  "industry": { "id": "i1", "label": "Software" },
+  "department": { "id": "1146555", "label": "Engineering" },
+  "function": { "id": "f1", "label": "Data" },
+  "typeOfEmployment": { "id": "t1", "label": "Full-time" },
+  "experienceLevel": { "id": "e1", "label": "Senior" },
+  "language": { "code": "en" },
+  "creator": { "name": "Jane Recruiter", "avatarUrl": "https://example.com/jane.png" },
+  "postingUrl": "https://careers.acme.com/jobs/743999900000001",
+  "applyUrl": "https://careers.acme.com/jobs/743999900000001/apply",
+  "referralUrl": "https://careers.acme.com/ref/743999900000001",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Acme builds <b>R&amp;D</b> tooling.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>You will:</p><ul><li>Build pipelines</li><li>Own quality</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>Python &amp; SQL required.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+ À propos de l’offre d’emploi
+
+Rejoindre KNDS France, c'est bien plus qu'intégrer une entreprise – c'est vivre une aventure humaine et professionnelle unique !
+
+Nous sommes leader dans la conception, la production et le soutien de systèmes de combat terrestres, d'artillerie, de munitions, d'armes et de robotique. En tant qu'architecte et intégrateur de systèmes de défense, nous sommes fiers de fournir des solutions innovantes et de pointe à nos clients, telles que le char LECLERC, le TITUS® ou encore le canon CAESAR®.
+
+Nous comptons aujourd'hui 4 500 collaborateurs répartis sur 12 sites en France et en Europe,toutes et tous déterminés à contribuer à un avenir plus sûr.
+
+La DSI de KNDS France recrute un Ingénieur Data et IA pour contribuer à la mise en œuvre et à la valorisation des données techniques et opérationnelles de l'entreprise dans un contexte de développement des usages Data Analytics, IA et jumeaux numériques.
+
+Rattaché au Chief Data Officer, il intervient en collaboration avec les architectes techniques Data et SI, les équipes Data Science, les équipes métiers (ingénierie, soutien, PLM) ainsi que les partenaires et prestataires impliqués dans les projets. Dans ce cadre, il participe à la mise en œuvre de la chaîne de valeur Data, depuis la collecte et la structuration des données jusqu'à leur exploitation analytique et algorithmique, en garantissant la qualité et la cohérence des données exploitées au sein des plateformes Data de l'entreprise.
+
+Structuration et gestion des données
+
+     Contribue à la collecte, à l'intégration et à la structuration des données issues des systèmes industriels, d'ingénierie et des systèmes opérationnels.
+     Met en œuvre les processus d'ingestion et de transformation des données dans les environnements analytiques de l'entreprise.
+     Assure la préparation et l'enrichissement des données nécessaires aux activités d'analyse et d'IA.
+     Participe à la mise en place des mécanismes permettant d'améliorer la qualité et la cohérence des données.
+
+Contribution aux architectures Data
+
+     Participe à la mise en œuvre des architectures Data et des flux de données nécessaires aux projets analytiques.
+     Contribue à l'intégration des données dans les plateformes Data de l'entreprise (Data Lake, environnements analytiques).
+     Veille à la cohérence des flux de données avec les architectures SI et Data définies par la DSI.
+
+Analyse et valorisation des données
+
+     Explore et analyse les données techniques et opérationnelles afin d'identifier des informations exploitables pour les équipes métiers.
+     Contribue au développement de traitements analytiques et d'algorithmes dans le cadre des projets Data et IA.
+
+Contribution aux projets Data et IA
+
+     Participe aux projets impliquant des partenaires industriels, académiques et prestataires dans le cadre des programmes de transformation numérique.
+     Contribue à la mise à disposition des données nécessaires aux activités de data science et aux projets d'innovation.
+
+ Profil / Compétences requises 
+
+Formation Bac+5 (école d'ingénieur ou université) en informatique, data science, IA ou ingénierie des données.
+
+Expérience de 5 ans minimum dans les domaines suivants :
+
+     Ingénierie et traitement de données
+     Analyse de données et projets Data Analytics
+     Exploitation de données techniques ou industrielles
+
+Compétences attendues :
+
+     Connaissance des architectures Data et des plateformes analytiques
+     Maîtrise des outils de traitement et préparation de données
+     Connaissances en analyse de données et méthodes de machine learning
+     Capacité à travailler en interaction avec des équipes techniques et métiers
+
+Qualités attendues :
+
+     Rigueur et capacité d'analyse
+     Esprit de synthèse
+     Capacité à travailler en équipe dans un environnement technique complexe
+     Intérêt pour l'innovation et la valorisation des données.

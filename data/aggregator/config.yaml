@@ -1,0 +1,92 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Configuration de la COLLECTE d'offres (catalogue partagé par tous les comptes).
+# Lancement :  jobtool aggregate      (ou le bouton « Actualiser les offres » de l'interface)
+#
+# La collecte REMPLIT le catalogue ; la recherche de l'interface le FILTRE ensuite
+# (mots-clés, départements, contrat). Ce fichier décide donc de ce qui PEUT être trouvé.
+#
+# AUCUN secret ici : les identifiants France Travail / Adzuna viennent du .env
+# (FRANCE_TRAVAIL_CLIENT_ID / _SECRET, ADZUNA_APP_ID / _KEY).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Valeurs par défaut des recherches ci-dessous (tout champ absent d'une recherche
+#    est pris ici). Seul, ce bloc vaut une recherche unique (format historique).
+criteres:
+  # ── FILTRE GÉOGRAPHIQUE (France Travail seulement) : SOIT commune+rayon, SOIT departement.
+  #    departement = codes INSEE séparés par des virgules (« 75,92,93,94 » = Paris + petite
+  #    couronne). commune = CODE INSEE de commune (PAS le code postal) + rayon en km.
+  #    Trouver un code : https://www.insee.fr/fr/recherche/recherche-geographique
+  departement: "75,92,93,94"
+  # Nombre maximum d'offres par recherche et par source (pagination ≤ 4 req/s).
+  max_results: 150
+  # Fenêtre de dates de création (ISO-8601), optionnelle.
+  # min_creation_date: "2026-05-01T00:00:00Z"
+  # NOTE : AUCUN filtre de TYPE DE CONTRAT à la collecte : on récupère large (stages, CDI,
+  # alternance…) et c'est la recherche de l'interface qui filtre.
+
+# ── Recherches exécutées par les sources « à recherche » (France Travail, Adzuna).
+#    Chacune hérite des `criteres` ci-dessus ; `motsCles` ou `mots_cles` au choix.
+recherches:
+  - motsCles: "data scientist"
+  - motsCles: "data analyst"
+  - motsCles: "data engineer"
+  - motsCles: "machine learning"
+
+# ── Sources : activation et plafond par collecte.
+#    max_results : par RECHERCHE pour France Travail / Adzuna ; au TOTAL pour les ATS.
+#    Une source absente de cette section est activée avec les valeurs par défaut.
+sources:
+  france_travail: {enabled: true, max_results: 150}
+  adzuna: {enabled: true, max_results: 100}   # national : ignore les départements
+  smartrecruiters: {enabled: true, max_results: 400}
+  workday: {enabled: true, max_results: 250}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SmartRecruiters (Posting API publique, SANS clé). Ramène TOUTES les offres des
+# entreprises listées (pas de mot-clé : la recherche de l'interface filtre ensuite).
+#
+# TROUVER L'IDENTIFIANT d'une entreprise : c'est le segment d'URL de sa page carrière,
+#   https://jobs.smartrecruiters.com/<IDENTIFIANT>   (sensible à la casse : « BoschGroup »)
+# puis VÉRIFIER qu'il répond (totalFound > 0) :
+#   curl 'https://api.smartrecruiters.com/v1/companies/<IDENTIFIANT>/postings?limit=1'
+# ⚠ Un identifiant faux répond 200 et une liste VIDE (ex. « Bosch », « Visa ») : la collecte
+#   le signale alors comme « identifiant probablement invalide ».
+# Liste de référence (1168 entreprises, avec volumes par pays) :
+#   data/aggregator/entreprises_ats.csv  (colonnes ats=smartrecruiters, slug)
+# ─────────────────────────────────────────────────────────────────────────────
+smartrecruiters:
+  # Vérifiés le 2026-09-19 (offres en France, country=fr) :
+  companies:
+    - BoschGroup   # 25
+    - ALTEN        # 650
+    - Devoteam     # 325
+    - talan        # 315
+    - Wavestone1   # 253
+    - inetum2      # 346
+    - Ubisoft2     # 94
+  country: fr            # code ISO2 minuscule
+  max_per_company: 60    # plafond par entreprise (une grosse ne mange pas tout le quota)
+  # region: IDF          # filtres propres à SmartRecruiters, optionnels
+  # department: "1146555"  # ID NUMÉRIQUE du département (le label renvoie HTTP 400)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Workday (API CXS publique des sites carrière, SANS clé).
+#
+# TROUVER LE SITE d'une entreprise : ouvrir sa page carrière Workday et copier l'URL,
+#   https://<tenant>.wd<N>.myworkdayjobs.com/<locale>/<site>
+# (tenant / data center wdN / site en sont dérivés ; le data center n'est jamais deviné).
+# VÉRIFIER qu'il répond (champ `total`) :
+#   curl -X POST -H 'Content-Type: application/json' \
+#     'https://<tenant>.wd<N>.myworkdayjobs.com/wday/cxs/<tenant>/<site>/jobs' \
+#     -d '{"appliedFacets":{},"limit":1,"offset":0,"searchText":""}'
+# Liste de référence : data/aggregator/entreprises_ats.csv (ats=workday, careers_url).
+# ─────────────────────────────────────────────────────────────────────────────
+workday:
+  # Vérifiés le 2026-09-19 :
+  sites:
+    - https://bdf.wd103.myworkdayjobs.com/fr-FR/recrutement-banque-de-france   # 123
+    - https://thales.wd3.myworkdayjobs.com/en-US/Careers                     # 1475 en France
+    - https://airliquidehr.wd3.myworkdayjobs.com/en-US/AirLiquideExternalCareer
+    - https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers               # 67 en France
+  country: France        # nom du pays tel que Workday l'affiche (facet « Location Country »)
+  max_per_site: 60

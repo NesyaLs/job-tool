@@ -1,0 +1,38 @@
+Description du poste
+
+Depuis 2004, le Groupe INTM, entreprise de conseil et de services du numérique, accompagne ses clients dans leurs grands projets de transformation, visant à répondre à leurs enjeux stratégiques et opérationnels tout en positionnant la technologie au service de l’entreprise et de l’humain.
+Grâce à la confiance mutuelle entre le Groupe INTM, ses collaborateurs et ses clients, nous connaissons une forte croissance appuyée par des alliances et des référencements durables avec des grands groupes français et internationaux.
+Nos métiers visent à augmenter la performance opérationnelle des Systèmes d’information de nos clients et partenaires, (Data, Cloud et infrastructures, automatisation et IA, cybersécurité …) et à apporter nos savoir-faire sur l’efficience de leurs chaînes de valeur (Stratégie digitale, agilité, accompagnement des changements, intégration, opérations, centres de services…) et ce sur de nombreux secteurs d’activité (industrie, transports, énergie, télécoms, banque, assurance, services, public, culture …).
+
+Because technology is all about people !
+Description du poste
+
+Boostez votre carrière en rejoignant une équipe à taille humaine au cœur de la transformation numérique !
+
+Le Groupe INTM, fort de plus de 1800 collaborateurs en France et à l’international, accompagne depuis près de 20 ans ses clients grands comptes dans leur transformation digitale, en plaçant la technologie et l’innovation au centre de leur stratégie.
+
+Poste : Consultant DevOps & Ingénierie de Production H/F
+
+Dans le cadre du développement de notre client, acteur majeur dans son secteur, nous recherchons un Consultant DevOps passionné par l’automatisation, la fiabilité des systèmes et l’ingénierie de production.
+
+Vos missions clés :
+
+    Conception collaborative : travailler en amont avec les équipes projet pour intégrer les contraintes d’exploitation et garantir la robustesse dès la phase de design.
+    Automatisation avancée : développer et maintenir des pipelines CI/CD robustes et sécurisés pour accélérer et fiabiliser le déploiement d’applications sur des environnements complexes (cloud, on-premise, containers).
+    Ingénierie de production : piloter la mise en production, assurer la surveillance, la gestion des incidents, l’optimisation des performances et la scalabilité des systèmes.
+    Support et collaboration : accompagner les équipes d’exploitation et de développement, faciliter la résolution des incidents et promouvoir les bonnes pratiques DevOps.
+    Intégration & qualification : valider les packages logiciels (.Net, Java, microservices) dans un environnement multi-plateformes.
+    Documentation & process : rédiger et maintenir la documentation technique d’exploitation et améliorer continuellement les processus ITSM et DevOps.
+
+Veille technologique : être force de proposition sur les nouvelles technologies (IaC, Kubernetes, observabilité, security automation).
+Profil recherché
+
+Vos compétences techniques :
+
+    Maîtrise des outils CI/CD : Jenkins, GitLab CI, GitHub Actions, Terraform
+    Gestion de configuration et Infrastructure as Code : Ansible, Puppet, Chef, Terraform
+    Conteneurs et orchestrateurs : Docker, Kubernetes, OpenShift
+    Cloud (AWS, Azure, GCP) : déploiement, automatisation, supervision
+    Langages de scripting et programmation : Python, Bash, Go, Java
+    Monitoring & observabilité : Prometheus, Grafana, ELK Stack
+

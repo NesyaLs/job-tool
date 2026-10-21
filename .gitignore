@@ -1,0 +1,47 @@
+# --- Secrets : jamais versionnés -------------------------------------------
+.env
+.env.*
+!.env.example
+# clé de chiffrement des clés API saisies dans l'interface (mode mono-poste)
+data/.secret_key
+
+# --- Données personnelles : jamais versionnées ------------------------------
+# base d'expériences réelle (modèle : data/base.example.yaml)
+data/moi*.yaml
+*.backup
+# brouillons de retouche manuelle et base locale des offres
+data/documents/drafts.db
+data/aggregator/jobs.db
+# sauvegardes des tables héritées (scripts/drop_legacy_tables.py)
+data/aggregator/legacy_backup_*.json
+# toute base locale ou sauvegarde, où qu'elle soit
+data/documents/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+*.log
+
+# --- Artefacts générés -----------------------------------------------------
+/output/
+/logs/
+/calibration/
+**/templates/render_input.json
+
+# --- Environnement et caches -----------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+src/*.egg-info/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Outils locaux ---------------------------------------------------------
+.claude/
+CLAUDE.md
+.idea/
+.vscode/
+.DS_Store

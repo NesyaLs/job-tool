@@ -1,0 +1,63 @@
+{
+  "total": 2000,
+  "jobPostings": [
+    {
+      "title": "Software DevOps Engineer - Grad",
+      "externalPath": "/job/Orlando/Software-DevOps-Engineer---Grad_R0340353-2",
+      "locationsText": "Orlando",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "Graduate",
+        "R0340353",
+        "20 - SOFTWARE",
+        "Thales Avionics, Inc. (IFE)"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "workerSubType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Regular Employee",
+          "id": "47200b8529d910215e1335a598fa2490",
+          "count": 2365
+        },
+        {
+          "descriptor": "Fixed Term Employee (Fixed Term)",
+          "id": "47200b8529d910215e1337f7cc1f2491",
+          "count": 115
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "descriptor": null,
+      "values": [
+        {
+          "facetParameter": "locationCountry",
+          "descriptor": "Location Country",
+          "values": [
+            {
+              "descriptor": "France",
+              "id": "54c5b6971ffb4bf0b116fe7651ec789a",
+              "count": 1475
+            },
+            {
+              "descriptor": "Germany",
+              "id": "dcc5b7608d8644b3a93716604e78e995",
+              "count": 105
+            },
+            {
+              "descriptor": "United States of America",
+              "id": "bc33aa3152ec42d4995f4791a106ed09",
+              "count": 62
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}

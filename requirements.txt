@@ -1,0 +1,25 @@
+# Dépendances d'exécution — miroir de [project].dependencies de pyproject.toml.
+# Installation recommandée : pip install -e "." (voir README.md)
+pydantic>=2
+pydantic-settings>=2
+mistralai
+requests
+pyyaml
+typer
+python-dotenv
+fastapi
+uvicorn
+# Formulaires multipart de FastAPI (envoi de la photo de profil).
+python-multipart
+
+# Base applicative (Postgres/Supabase) + migrations + vérification des jetons.
+sqlalchemy>=2
+alembic
+psycopg[binary]
+pyjwt[crypto]
+
+# Chiffrement des clés d'API saisies dans l'interface (cf. core/api_keys.py).
+cryptography
+
+# Normalisation des photos de profil À L'ENVOI (cf. core/experience_base/photo.py).
+pillow>=12,<13

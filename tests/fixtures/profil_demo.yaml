@@ -1,0 +1,267 @@
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  profil_demo.yaml — PROFIL ENTIÈREMENT FICTIF, réservé aux tests.         ║
+# ║                                                                            ║
+# ║  Personne, écoles, entreprises, dates et projets sont inventés.           ║
+# ║  Les tests citent certains ids (stage-atlas-ia-2026.1, projet-noyaux-     ║
+# ║  hpc.N…), le nom, la ville et deux centres d'intérêt : les garder         ║
+# ║  alignés si on modifie ce fichier.                                         ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+profile:
+  name: Camille Martin
+  email: camille.martin@example.com
+  phone: "+33 6 00 00 00 00"
+  location: Grenoble, France
+  links: [
+          https://www.linkedin.com/in/camille-martin-exemple,
+          https://github.com/camille-martin-exemple,
+         ]
+  # Mode ADAPTABLE : le LLM remplit UNIQUEMENT le trou {focus} selon l'offre.
+  accroche_gabarit: "Élève ingénieure en informatique, spécialisée en {focus}, à la recherche d'un premier poste."
+
+education:
+  - degree: Diplôme d'ingénieur, spécialité Informatique et calcul scientifique
+    school: École d'ingénieurs Exemple, Grenoble (38000)
+    start: "2022-09"
+    end: "2026-09"
+  - degree: Licence de mathématiques (deux premières années)
+    school: Université Exemple, Lille (59000)
+    start: "2020-09"
+    end: "2022-06"
+
+languages:
+  - name: Français
+    level: Langue maternelle
+  - name: Anglais
+    level: C1 — IELTS 7.0
+  - name: Allemand
+    level: B2
+
+hard_skills:
+  - C
+  - C++
+  - Python
+  - Go
+  - Rust
+  - SQL
+  - CUDA
+  - OpenMP
+  - MPI
+  - PyTorch
+  - OpenCV
+  - NumPy
+  - Pandas
+  - FastAPI
+  - PostgreSQL
+  - Docker
+  - Git
+  - Linux
+  - CI/CD
+
+soft_skills:
+  - Rigueur
+  - Autonomie
+  - Travail en équipe
+  - Curiosité
+  - Communication
+
+interests:
+  - Escalade en bloc
+  - Trail en montagne
+  - Contributions à des logiciels open source
+  - Jeux de société
+  - Céramique
+
+experiences:
+
+  - id: stage-atlas-ia-2026
+    type: internship
+    pinned: true
+    title: Ingénieure vision par ordinateur (stage de fin d'études)
+    organization: Institut Atlas
+    start: "2026-03"
+    end: "2026-08"
+    summary: >
+      Stage de fin d'études sur la détection automatique de défauts dans des
+      images de pièces industrielles.
+    achievements:
+      - id: stage-atlas-ia-2026.1
+        text: >
+          Entraîné un modèle de détection de défauts sur des images de pièces
+          usinées avec PyTorch.
+        skills:
+          - pytorch
+          - vision-par-ordinateur
+          - python
+      - id: stage-atlas-ia-2026.2
+        text: >
+          Mis en place un protocole d'expériences reproductibles : jeux de
+          données versionnés, graines fixées et suivi des métriques.
+        skills:
+          - mlops
+          - reproductibilite
+          - python
+      - id: stage-atlas-ia-2026.3
+        text: >
+          Quantifié le modèle pour l'exécuter sur un poste d'inspection sans GPU.
+        skills:
+          - optimisation
+          - deploiement
+
+  - id: stage-nordwind-2025
+    type: internship
+    pinned: true
+    title: Développeuse backend (stage)
+    organization: Nordwind Software (Hambourg, Allemagne)
+    start: "2025-06"
+    end: "2025-09"
+    summary: >
+      Stage dans l'équipe plateforme d'un éditeur de logiciels de logistique.
+    achievements:
+      - id: stage-nordwind-2025.1
+        text: >
+          Conçu en Go un service de calcul d'itinéraires de livraison capable de
+          traiter les tournées de plusieurs entrepôts en parallèle.
+        skills:
+          - go
+          - backend
+          - concurrence
+      - id: stage-nordwind-2025.2
+        text: >
+          Profilé et optimisé les requêtes PostgreSQL les plus coûteuses du
+          service de planification.
+        skills:
+          - postgresql
+          - optimisation
+          - profilage
+
+  - id: stage-lumen-lab-2023
+    type: internship
+    pinned: true
+    title: Stagiaire développement (stage de 1ʳᵉ année)
+    organization: Lumen Lab (Grenoble, France)
+    start: "2023-06"
+    end: "2023-08"
+    summary: >
+      Stage dans un laboratoire de recherche en optique, sur les outils
+      d'acquisition de mesures.
+    achievements:
+      - id: stage-lumen-lab-2023.1
+        text: >
+          Développé en Python un outil d'acquisition et de visualisation de
+          mesures pour un projet de recherche appliquée.
+        skills:
+          - python
+          - numpy
+          - visualisation
+      - id: stage-lumen-lab-2023.2
+        text: >
+          Ajouté des tests automatisés et une intégration continue à l'outil.
+        skills:
+          - tests
+          - ci-cd
+
+  - id: job-club-escalade-2024
+    type: job
+    title: Monitrice d'escalade (emploi étudiant)
+    organization: Club d'escalade Exemple (Grenoble, France)
+    start: "2023-09"
+    end: "2025-06"
+    summary: >
+      Encadrement de séances d'initiation en parallèle des études.
+    achievements:
+      - id: job-club-escalade-2024.1
+        text: >
+          Encadré chaque semaine des groupes de grimpeurs débutants.
+        skills:
+          - pedagogie
+          - encadrement
+      - id: job-club-escalade-2024.2
+        text: >
+          Organisé une compétition régionale avec l'équipe de bénévoles du club.
+        skills:
+          - organisation
+          - travail-en-equipe
+
+  - id: projet-noyaux-hpc
+    type: school_project
+    title: Solveurs scientifiques parallèles
+    organization: École d'ingénieurs Exemple
+    start: "2025-01"
+    end: "2025-05"
+    summary: >
+      Implémentation et parallélisation de noyaux de calcul scientifique sur CPU
+      et GPU.
+    achievements:
+      - id: projet-noyaux-hpc.1
+        text: >
+          Écrit une version séquentielle de référence de deux noyaux de calcul :
+          un produit matrice-vecteur creux et un solveur stencil 2D.
+        skills:
+          - c
+          - hpc
+          - calcul-scientifique
+      - id: projet-noyaux-hpc.2
+        text: >
+          Parallélisé les noyaux avec OpenMP sur un nœud, puis avec MPI sur
+          plusieurs nœuds.
+        skills:
+          - openmp
+          - mpi
+          - parallelisme
+      - id: projet-noyaux-hpc.3
+        text: >
+          Porté les noyaux sur GPU avec CUDA et mesuré leur passage à l'échelle.
+        skills:
+          - cuda
+          - gpu
+          - optimisation
+
+  - id: projet-filtres-gpu
+    type: school_project
+    title: Filtres d'images parallèles sur GPU
+    organization: École d'ingénieurs Exemple
+    start: "2024-09"
+    end: "2024-12"
+    summary: >
+      Accélération de filtres de convolution sur des images haute résolution.
+    achievements:
+      - id: projet-filtres-gpu.1
+        text: >
+          Accéléré des filtres de convolution sur images, d'abord avec OpenMP puis
+          sur GPU avec CUDA.
+        skills:
+          - cuda
+          - openmp
+          - traitement-d-images
+      - id: projet-filtres-gpu.2
+        text: >
+          Comparé les versions CPU et GPU à l'aide d'un profileur.
+        skills:
+          - profilage
+          - gpu
+
+  - id: projet-perso-boardgames
+    type: personal_project
+    title: Application web de suivi de parties de jeux de société
+    organization: Projet personnel
+    start: "2024-02"
+    end: "2024-06"
+    summary: >
+      Application web pour enregistrer des parties entre amis et suivre les
+      classements.
+    achievements:
+      - id: projet-perso-boardgames.1
+        text: >
+          Développé une API REST avec FastAPI et PostgreSQL pour enregistrer les
+          parties et calculer les classements.
+        skills:
+          - fastapi
+          - postgresql
+          - rest-api
+      - id: projet-perso-boardgames.2
+        text: >
+          Conteneurisé l'application avec Docker et automatisé son déploiement.
+        skills:
+          - docker
+          - ci-cd

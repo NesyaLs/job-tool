@@ -1,0 +1,35 @@
+[project]
+name = "jobtool"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2", "pydantic-settings>=2", "mistralai",
+                "requests", "pyyaml", "typer", "python-dotenv",
+                "fastapi", "uvicorn",
+                # Formulaires multipart de FastAPI (envoi de la photo de profil).
+                "python-multipart",
+                # Base applicative (Postgres/Supabase) + migrations + vérification des jetons.
+                "sqlalchemy>=2", "alembic", "psycopg[binary]", "pyjwt[crypto]",
+                # Chiffrement des clés d'API saisies dans l'interface (cf. core/api_keys.py).
+                "cryptography",
+                # Normalisation des photos de profil À L'ENVOI (cf. core/experience_base/photo.py).
+                "pillow>=12,<13"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "ruff", "mypy", "types-PyYAML", "httpx"]
+
+[project.scripts]
+jobtool = "jobtool.cli.main:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.typ", "prompts/*.md", "*.json", "*.yaml", "*.yml", "geo_data/*.csv", "LICENSE-*", "fonts/*/*.ttf", "fonts/*/*.otf"]
+
+[tool.ruff]
+line-length = 100
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

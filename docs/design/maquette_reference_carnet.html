@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<title>jobtool : maquette de référence (Carnet, Papier vert, Fraunces + Inter)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root, .th-papier {
+  --bg: #EAF1EC;
+  --surface: #F9FCFA;
+  --side: #EAF1EC;
+  --side-ink: #16261D;
+  --side-active: #F9FCFA;
+  --ink: #16261D;
+  --muted: #5C6E63;
+  --line: #CFDDD3;
+  --acc: #237F4E;
+  --acc-ink: #FFFFFF;
+  --acc-tint: #D2EBDC;
+  --acc2: #3E4944;
+  --acc2-ink: #FFFFFF;
+  --acc2-tint: #E1E6E3;
+  --gauge: #3E4944;
+  --good: #237F4E;
+  --mid: #AF7414;
+  --low: #B44536;
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Inter', Arial, sans-serif;
+}
+body { margin: 0; padding: 40px; background: #DDE5DF; font-family: var(--sans); display: flex; flex-direction: column; gap: 24px; align-items: center; }
+h2.label { font: 600 14px var(--sans); color: #3E4944; margin: 16px 0 0; width: 1200px; }
+/* ---------- application ---------- */
+.app{--a:var(--acc);--a-ink:var(--acc-ink);--a-tint:var(--acc-tint);width:1200px;height:660px;display:grid;grid-template-columns:230px 1fr;grid-template-rows:56px minmax(0,1fr);background:var(--bg);color:var(--ink);font-size:13px;line-height:1.45;overflow:hidden;border-radius:14px;box-shadow:0 30px 60px -24px rgba(20,35,28,.38),0 0 0 1px rgba(20,35,28,.08)}
+.app.space-p{--a:var(--acc2);--a-ink:var(--acc2-ink);--a-tint:var(--acc2-tint)}
+.top{grid-column:1/-1;display:flex;align-items:center;gap:18px;padding:0 20px;background:var(--surface);border-bottom:1px solid var(--line)}
+.logo{font-weight:700;font-size:16px;display:flex;align-items:center;gap:9px;width:192px;letter-spacing:-.01em}
+.logo-mark{width:20px;height:20px;border-radius:7px;background:var(--acc);flex:none}
+.search{width:390px;display:flex;align-items:center;gap:8px;height:34px;padding:0 14px;border-radius:10px;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.search svg{width:15px;height:15px;flex:none}
+.status{margin-left:auto;color:var(--muted);font-size:12px;display:flex;align-items:center;gap:7px}
+.status i{width:7px;height:7px;border-radius:50%;background:var(--good);display:block}
+.avatar{width:32px;height:32px;border-radius:50%;background:var(--a-tint);color:var(--a);display:grid;place-items:center;font-weight:700;font-size:12px;flex:none}
+.side{background:var(--side);color:var(--side-ink);padding:16px 12px;display:flex;flex-direction:column;gap:2px;border-right:1px solid var(--line);min-height:0}
+.switch{display:flex;padding:4px;border-radius:10px;background:color-mix(in srgb,var(--side-ink) 9%,transparent);margin-bottom:14px;gap:2px}
+.seg{flex:1;text-align:center;padding:7px 0;border-radius:7px;font-weight:600;color:color-mix(in srgb,var(--side-ink) 62%,transparent)}
+.seg.on{background:var(--a);color:var(--a-ink)}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border-radius:8px;font-weight:500}
+.nav.active{background:var(--side-active);font-weight:700}
+.count{font-size:12px;opacity:.75;min-width:22px;text-align:center}
+.nav.active .count{background:var(--a);color:var(--a-ink);opacity:1;border-radius:9px;padding:0 7px;font-weight:700}
+.nav.dim{opacity:.55}
+.grow{flex:1}
+.gauge{padding:12px 13px;border-radius:10px;background:var(--side-active);font-size:12px}
+.g-bar{height:6px;border-radius:3px;background:color-mix(in srgb,var(--side-ink) 14%,transparent);overflow:hidden;margin:8px 0 7px}
+.g-bar i{display:block;height:100%;width:80%;background:var(--gauge);border-radius:3px}
+.g-link{font-weight:700;color:var(--gauge)}
+.ia{display:flex;align-items:center;justify-content:center;gap:8px;padding:11px;border-radius:10px;background:var(--acc2);color:var(--acc2-ink);font-weight:700}
+.ia svg{width:16px;height:16px}
+.main{display:grid;grid-template-columns:392px minmax(0,1fr);min-height:0;min-width:0}
+.list{background:var(--surface);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.list-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 10px}
+.lh-title{font-size:17px;font-weight:700;letter-spacing:-.01em}
+.lh-sub{color:var(--muted);font-size:12px;font-weight:400;margin-left:6px;letter-spacing:0}
+.chips{display:flex;gap:6px;padding:0 18px 12px;flex-wrap:wrap}
+.chip{padding:3px 10px;border-radius:12px;background:var(--bg);border:1px solid var(--line);font-size:12px;display:inline-flex;gap:6px;align-items:center}
+.chip s{text-decoration:none;opacity:.5}
+.row{display:flex;gap:10px;align-items:flex-start;padding:11px 18px 11px 12px;border-top:1px solid var(--line)}
+.row .dot{width:7px;height:7px;border-radius:50%;margin-top:6px;flex:none}
+.row.unread .dot{background:var(--a)}
+.r-main{flex:1;min-width:0}
+.r-title{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row.unread .r-title,.row.sel .r-title{font-weight:700}
+.r-sub{color:var(--muted);font-size:12px}
+.r-side{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.r-date{font-size:11px;color:var(--muted)}
+.row.sel{background:var(--a-tint)}
+.score{font-weight:700;font-size:12px;padding:2px 8px;border-radius:10px;color:var(--sc);background:color-mix(in srgb,var(--sc) 15%,var(--surface));white-space:nowrap}
+.good{--sc:var(--good)}.mid{--sc:var(--mid)}.low{--sc:var(--low)}
+.detail{background:var(--surface);padding:22px 30px;display:flex;flex-direction:column;gap:14px;min-width:0;overflow:hidden}
+.actions{display:flex;gap:8px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 14px;border-radius:9px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--ink);white-space:nowrap}
+.btn svg{width:15px;height:15px}
+.btn.primary{background:var(--a);color:var(--a-ink);border-color:var(--a)}
+.btn.p2{background:var(--acc2);color:var(--acc2-ink);border-color:var(--acc2)}
+.btn.sm{height:28px;padding:0 11px;font-size:12px}
+.btn.link{border:none;background:none;color:var(--muted);padding:0 6px}
+kbd{display:none}
+.d-head{display:flex;gap:16px;align-items:center}
+.ring{display:none}
+.d-title{font-size:25px;font-weight:800;line-height:1.15;margin:0;letter-spacing:-.015em}
+.d-company{color:var(--muted);font-size:14px;margin-top:2px}
+.tags{display:flex;gap:6px}
+.tag{padding:3px 10px;border-radius:12px;background:var(--bg);font-size:12px;color:var(--muted)}
+.match{display:flex;gap:10px;align-items:center}
+.score.big{font-size:13px;padding:4px 10px}
+.why{color:var(--muted);font-size:12.5px}
+.d-h2{font-size:14px;font-weight:700;margin:2px 0 0}
+.detail p{margin:0;max-width:64ch}
+.detail ul{margin:0;padding-left:18px;max-width:64ch}
+.detail li{margin:2px 0}
+.bridge{display:flex;align-items:center;gap:14px;justify-content:space-between;padding:12px 14px;border-radius:10px;background:var(--acc2-tint);color:var(--ink);max-width:640px}
+.sources{color:var(--muted);font-size:12px}
+/* profil */
+.xcard{padding:12px 18px;border-top:1px solid var(--line)}
+.xcard.sel{background:var(--a-tint)}
+.x-title{font-weight:700}
+.x-sub{color:var(--muted);font-size:12px}
+.x-meta{font-size:11.5px;color:var(--muted);margin-top:5px;display:flex;gap:6px;align-items:center}
+.x-meta .warn{color:var(--mid);font-weight:700}
+.add-row{margin:12px 18px;padding:10px;border:1px dashed color-mix(in srgb,var(--a) 55%,var(--line));color:var(--a);font-weight:700;text-align:center;border-radius:10px}
+.crumb{font-size:12px;color:var(--muted)}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;max-width:660px}
+.field label{display:block;font-size:11.5px;color:var(--muted);margin-bottom:4px;font-weight:600}
+.input{min-height:34px;display:flex;align-items:center;padding:6px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.field.full{grid-column:1/-1}
+.real{display:flex;flex-direction:column;gap:6px}
+.addl{color:var(--a);font-weight:700;font-size:12.5px;padding:2px 2px}
+.suggest{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:10px;background:var(--acc2-tint);max-width:660px}
+.suggest .s-text{flex:1}
+.suggest svg{width:20px;height:20px;color:var(--acc2);flex:none}
+.saved{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;margin-top:auto}
+.saved i{width:7px;height:7px;border-radius:50%;background:var(--good);display:block}
+
+
+/* ---------- CARNET ---------- */
+.st-carnet{font-family:Inter}
+.st-carnet .logo,.st-carnet .d-title,.st-carnet .lh-title,.st-carnet .d-h2,.st-carnet .score.big,.st-carnet .x-title{font-family:Fraunces}
+.st-carnet .logo{font-weight:600;font-size:21px}
+.st-carnet .logo-mark{width:9px;height:9px;border-radius:50%}
+.st-carnet .top,.st-carnet .side{background:var(--bg);color:var(--ink)}
+.st-carnet .g-bar i{background:var(--acc2)}.st-carnet .g-link{color:var(--acc2)}
+.st-carnet .ia{background:var(--acc2)}
+.st-carnet .btn,.st-carnet .chip,.st-carnet .tag,.st-carnet .search,.st-carnet .nav,.st-carnet .input,.st-carnet .score,.st-carnet .add-row{border-radius:3px}
+.st-carnet .switch{background:none;padding:0;border-bottom:1px solid var(--line);border-radius:0}
+.st-carnet .seg{border-radius:0;color:var(--muted);padding:8px 0}
+.st-carnet .seg.on{background:none;color:var(--a);box-shadow:inset 0 -2px 0 var(--a)}
+.st-carnet .nav.active{background:none;box-shadow:inset 2px 0 0 var(--a);border-radius:0;color:var(--a)}
+.st-carnet .nav.active .count{background:none;color:var(--a)}
+.st-carnet .row.sel,.st-carnet .xcard.sel{background:color-mix(in srgb,var(--a-tint) 55%,var(--surface));box-shadow:inset 3px 0 0 var(--a)}
+.st-carnet .d-title{font-size:36px;font-weight:600;letter-spacing:-.02em}
+.st-carnet .lh-title{font-size:22px;font-weight:600}
+.st-carnet .d-h2{font-size:18px;font-weight:600}
+.st-carnet .x-title{font-weight:600;font-size:15px}
+.st-carnet .score{background:none;padding:0}
+.st-carnet .score.big{font-size:24px;font-weight:600}
+.st-carnet .chip,.st-carnet .tag{background:none}
+.st-carnet .bridge,.st-carnet .suggest{background:none;border-left:3px solid var(--acc2);border-radius:0;padding:4px 0 4px 16px}
+.st-carnet .gauge{background:none;border-top:1px solid var(--line);border-radius:0;padding:14px 6px 4px}
+.st-carnet .detail p{font-size:14px;line-height:1.6}
+.st-carnet .ia{border-radius:3px}
+
+
+.st-carnet{font-family:var(--sans)}
+.st-carnet .logo,.st-carnet .d-title,.st-carnet .lh-title,.st-carnet .d-h2,.st-carnet .score.big,.st-carnet .x-title{font-family:var(--serif);font-weight:600}
+
+</style></head><body>
+<!-- Maquette statique de référence. Contenus fictifs. Ce n'est pas du code de production :
+     la structure et les styles servent de cible visuelle pour l'implémentation. -->
+<h2 class="label">Espace Offres (dossier Nouvelles, offre sélectionnée)</h2>
+<div class="app st-carnet th-papier"><div class="top"><div class="logo"><span class="logo-mark"></span>jobtool</div>
+<div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Rechercher un poste, une entreprise, une ville</div>
+<div class="status"><i></i>Offres à jour il y a 2 h</div><div class="avatar">CD</div></div><div class="side"><div class="switch"><span class="seg on">Offres</span><span class="seg">Profil</span></div><div class="nav active"><span>Nouvelles</span><span class="count num">12</span></div><div class="nav "><span>Favoris</span><span class="count num">5</span></div><div class="nav "><span>Candidatures</span><span class="count num">14</span></div><div class="nav dim"><span>Masquées</span><span class="count num">21</span></div>
+<div class="grow"></div><div class="gauge">Profil complet à 80 %<div class="g-bar"><i></i></div><div class="g-link">Compléter mon profil</div></div></div>
+<div class="main"><div class="list"><div class="list-head"><div class="lh-title">Nouvelles<span class="lh-sub">12 offres</span></div><span class="btn sm">+ Ajouter une offre</span></div>
+<div class="chips"><span class="chip">CDI <s>✕</s></span><span class="chip">Île-de-France, Occitanie <s>✕</s></span><span class="chip">Moins de 7 jours <s>✕</s></span></div><div class="row sel"><span class="dot"></span><div class="r-main"><div class="r-title">Data Analyst</div><div class="r-sub">Orbital SA, Toulouse</div></div>
+<div class="r-side"><span class="score good num">86 %</span><span class="r-date num">2 h</span></div></div><div class="row unread"><span class="dot"></span><div class="r-main"><div class="r-title">Analyste BI</div><div class="r-sub">Kiwi Sport, Lille</div></div>
+<div class="r-side"><span class="score good num">81 %</span><span class="r-date num">3 h</span></div></div><div class="row unread"><span class="dot"></span><div class="r-main"><div class="r-title">Data Scientist junior</div><div class="r-sub">Nexalis, Palaiseau</div></div>
+<div class="r-side"><span class="score good num">78 %</span><span class="r-date num">5 h</span></div></div><div class="row "><span class="dot"></span><div class="r-main"><div class="r-title">Chargé d'études statistiques</div><div class="r-sub">Datastat, Paris</div></div>
+<div class="r-side"><span class="score mid num">72 %</span><span class="r-date num">hier</span></div></div><div class="row unread"><span class="dot"></span><div class="r-main"><div class="r-title">Analyste pricing</div><div class="r-sub">Maison+, Lille</div></div>
+<div class="r-side"><span class="score mid num">68 %</span><span class="r-date num">hier</span></div></div><div class="row "><span class="dot"></span><div class="r-main"><div class="r-title">Consultant data</div><div class="r-sub">Brio, Nantes</div></div>
+<div class="r-side"><span class="score mid num">61 %</span><span class="r-date num">2 j</span></div></div><div class="row "><span class="dot"></span><div class="r-main"><div class="r-title">Analyste reporting</div><div class="r-sub">Helio, Grenoble</div></div>
+<div class="r-side"><span class="score low num">54 %</span><span class="r-date num">3 j</span></div></div><div class="row "><span class="dot"></span><div class="r-main"><div class="r-title">Ingénieur données</div><div class="r-sub">Voltéa, Lyon</div></div>
+<div class="r-side"><span class="score low num">52 %</span><span class="r-date num">4 j</span></div></div></div>
+<div class="detail"><div class="actions"><span class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><path d="M4 4l16 16"/></svg>Masquer<kbd>H</kbd></span><span class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>Favori<kbd>F</kbd></span><div class="grow"></div><span class="btn primary">Postuler<kbd>P</kbd><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+<div class="d-head"><div class="ring good" style="--v:86"><span class="num">86</span></div><div><h1 class="d-title">Data Analyst</h1><div class="d-company">Orbital SA</div></div></div>
+<div class="tags"><span class="tag">Toulouse</span><span class="tag">CDI</span><span class="tag">Publiée il y a 2 h</span></div>
+<div class="match"><span class="score big good num">86 % compatible</span><span class="why">SQL, Python et ton stage en analyse de données correspondent.</span></div>
+<h2 class="d-h2">Le poste</h2>
+<p>Au sein de l'équipe Performance industrielle, tu construis les indicateurs qui pilotent la production et tu accompagnes les responsables d'atelier dans leurs analyses.</p>
+<ul><li>Concevoir et faire vivre les tableaux de bord de production</li><li>Automatiser les extractions et le reporting mensuel</li><li>Présenter tes analyses aux équipes métier</li></ul>
+<div class="bridge"><div><b>Power BI</b> est demandé dans l'offre, mais absent de ton profil.</div><span class="btn p2 sm">Ajouter au profil</span></div>
+<div class="sources">Aussi publiée sur France Travail et Adzuna</div></div></div></div>
+<h2 class="label">Espace Profil (section Expériences, une expérience ouverte)</h2>
+<div class="app space-p st-carnet th-papier"><div class="top"><div class="logo"><span class="logo-mark"></span>jobtool</div>
+<div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Rechercher un poste, une entreprise, une ville</div>
+<div class="status"><i></i>Offres à jour il y a 2 h</div><div class="avatar">CD</div></div><div class="side"><div class="switch"><span class="seg">Offres</span><span class="seg on">Profil</span></div><div class="nav "><span>Identité</span><span class="count num"></span></div><div class="nav active"><span>Expériences</span><span class="count num">5</span></div><div class="nav "><span>Compétences</span><span class="count num">18</span></div><div class="nav "><span>Langues</span><span class="count num">3</span></div><div class="nav "><span>Templates</span><span class="count num">7</span></div>
+<div class="grow"></div><div class="ia"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L20.5 10l-6.3 2.2L12 18.5l-2.2-6.3L3.5 10l6.3-1.7z"/></svg>Entretien IA</div></div>
+<div class="main"><div class="list"><div class="list-head"><div class="lh-title">Expériences<span class="lh-sub">5 au total</span></div></div><div class="xcard sel"><div class="x-title">Stage Data Analyst</div><div class="x-sub">Nexalis · mars à août 2024</div>
+<div class="x-meta">3 réalisations <span class="warn">· aucun chiffre</span></div></div><div class="xcard "><div class="x-title">Projet : prédiction du churn</div><div class="x-sub">Master MIASHS · 2023</div>
+<div class="x-meta">2 réalisations</div></div><div class="xcard "><div class="x-title">Assistant statistique</div><div class="x-sub">Datastat · été 2022</div>
+<div class="x-meta">2 réalisations <span class="warn">· aucun chiffre</span></div></div><div class="xcard "><div class="x-title">Vendeur conseil</div><div class="x-sub">Kiwi Sport · 2020 à 2021</div>
+<div class="x-meta">2 réalisations</div></div>
+<div class="add-row">+ Ajouter une expérience</div></div>
+<div class="detail"><div class="crumb">Expériences › Stage Data Analyst</div><h1 class="d-title">Stage Data Analyst</h1>
+<div class="form"><div class="field"><label>Intitulé</label><div class="input">Stage Data Analyst</div></div>
+<div class="field"><label>Entreprise</label><div class="input">Nexalis</div></div>
+<div class="field"><label>Début</label><div class="input">Mars 2024</div></div>
+<div class="field"><label>Fin</label><div class="input">Août 2024</div></div>
+<div class="field full"><label>Réalisations</label><div class="real">
+<div class="input">Automatisation du reporting hebdomadaire en Python</div>
+<div class="input">Tableaux de bord de suivi des ventes pour les équipes régionales</div>
+<div class="input">Nettoyage et fusion de trois bases clients</div>
+<div class="addl">+ Ajouter une réalisation</div></div></div></div>
+<div class="suggest"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L20.5 10l-6.3 2.2L12 18.5l-2.2-6.3L3.5 10l6.3-1.7z"/></svg><div class="s-text">Aucune de ces réalisations n'a de chiffre. L'IA peut te poser 3 questions pour en trouver.</div><span class="btn p2 sm">Commencer</span><span class="btn link sm">Plus tard</span></div>
+<div class="saved"><i></i>Enregistré automatiquement</div></div></div></div>
+</body></html>
